@@ -4,76 +4,14 @@ let gulp = require('gulp-param')(require("gulp"), process.argv),
 	yaml = require('gulp-yaml'),
 	clean = require('gulp-clean'),
 	jsoncombine = require("gulp-jsoncombine"),
-	VideoParser = require('./video-parser'),
-	through = require('through2')
+	VideoParser = require('./lib/video-parser'),
+	through = require('through2'),
+	utils = require('./lib/utils')
 
 gulp.task('clean', function() {
   return gulp.src(['dist'], {read: false})
     .pipe(clean());
 });
-
-function parseVideo(parser, url) {
-	return new Promise(resolve => {
-		parser.parse((err, videoInfo) => {
-			if (err) {
-				console.log(`Error parsing video: ${url}`)
-				console.dir(err)
-				resolve(null)
-			} else {
-				resolve(videoInfo)
-			}
-		}, url)
-	})
-}
-
-function prepareVideos(videos) {
-	return videos
-		.filter(video => video)
-		.map(result => ({
-			url: result.embedSrc,
-			title: result.name,
-			thumbnail: result.thumb_url,
-		}))
-}
-
-function populateVideos(config, parser) {
-	return new Promise(resolve => {
-		// populate videos collection
-		let parsePromises = config.videos.map(video => parseVideo(parser, video.url))
-
-		let videosPromise = Promise.all(parsePromises)
-			.then(results => {
-				return prepareVideos(results)
-			})
-
-		// populate videos in categories
-		let categoriesPromises = config.categories.map(category => {
-			if (!category.videos) {
-				return Promise.resolve(category)
-			}
-
-			let parsePromises = category.videos.map(videoUrl => parseVideo(parser, videoUrl))
-
-			return Promise.all(parsePromises)
-				.then(results => {
-					category.videos = prepareVideos(results)
-					return category
-				})
-		})
-
-		let categoriesPromise = Promise.all(categoriesPromises)
-
-		Promise.all([videosPromise, categoriesPromise])
-			.then((results) => {
-				config.videos = results[0]
-				config.categories = results[1]
-				resolve(config)
-			})
-			.catch(err => {
-				console.log(err)
-			})
-	})
-}
 
 gulp.task('compile', ['clean'], function(youtube, vimeo) {
 	let videoParser = new VideoParser({
@@ -108,7 +46,7 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 		}))
 		// get video metadata
 		.pipe(through.obj((file, enc, cb) => {
-			populateVideos(JSON.parse(file.contents.toString()), videoParser)
+			utils.populateVideos(JSON.parse(file.contents.toString()), videoParser)
 				.then((result) => {
 					file.contents = new Buffer(JSON.stringify(result))
 					cb(null, file)
