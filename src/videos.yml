@@ -1,11 +1,5 @@
-- url: https://vimeo.com/106236408
+# VIDEOS #######################################################################
+################################################################################
+- url: https
   tags:
-    - agile
-    - scrum
-- url: https://www.youtube.com/watch?v=Ti2g66b7MUo
-  tags:
-    - ux
-    - canban
-- url: https://vimeo.com/86984501
-  tags:
-    - none
+    - tag
