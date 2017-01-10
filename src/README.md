@@ -50,15 +50,15 @@ videos.yml
     - canban
 ```
 
-use-cases.yml, articles.yml
+case-studies.yml, articles.yml
 -
 ```
 - title: Achieve goals with distributed agile teams
-- url: https://help.realtimeboard.com/support/solutions/articles/11000008278-achieve-goals-with-distributed-agile-teams
+  url: https://help.realtimeboard.com/support/solutions/articles/11000008278-achieve-goals-with-distributed-agile-teams
   tags:
     - agile
 - title: Get your remote team together to make UX effective
-- url: https://help.realtimeboard.com/support/solutions/articles/11000010890-get-your-remote-team-together-to-make-ux-effective
+  url: https://help.realtimeboard.com/support/solutions/articles/11000010890-get-your-remote-team-together-to-make-ux-effective
   tags:
     - ux
 ```    
