@@ -3,7 +3,8 @@
 
 Cоздаем файл с названием варианта использования, например, example.yml.
 
-Содержимое файла:
+Содержимое файла
+-
 ```
 title: Create agile boards
 description: User story maps, kanban boards and retrospectives.
