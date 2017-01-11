@@ -6,7 +6,8 @@ let gulp = require('gulp-param')(require("gulp"), process.argv),
 	jsoncombine = require("gulp-jsoncombine"),
 	VideoParser = require('./lib/video-parser'),
 	through = require('through2'),
-	utils = require('./lib/utils')
+	utils = require('./lib/utils'),
+	camelCase = require('camelcase')
 
 gulp.task('clean', function() {
   return gulp.src(['dist'], {read: false})
@@ -35,7 +36,7 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 			let result = {};
 			for (let key in data) {
 				if (~key.indexOf('/')) {
-					let collectionName = key.split('/')[0]
+					let collectionName = camelCase(key.split('/')[0])
 					let collection = result[collectionName] || (result[collectionName] = [])
 					collection.push(data[key])
 				} else {
