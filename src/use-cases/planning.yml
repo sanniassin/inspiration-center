@@ -10,6 +10,8 @@ videos:
   # Video from Youtube
   - https://www.youtube.com/watch?v=Ti2g66b7MUo
 helpTopics:
-  - https://help.realtimeboard.com/solution/articles/11000008278-achieve-goals-with-distributed-agile-teams
+  - title: Help topic
+    url: https://help.realtimeboard.com/solution/articles/11000008278-achieve-goals-with-distributed-agile-teams
 blogArticles:
-  - https://realtimeboard.com/blog/building-product-roadmap-template/#.WFKSLXV97CI
+  - title: Blog article
+    url: https://realtimeboard.com/blog/building-product-roadmap-template

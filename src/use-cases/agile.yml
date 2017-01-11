@@ -6,6 +6,8 @@ templates:
 videos:
   - https://i.vimeocdn.com/video/567115891.webp?mw=640&mh=360
 helpTopics:
-  - https://help.realtimeboard.com/solution/articles/11000008278-achieve-goals-with-distributed-agile-teams
+  - title: Achieve goals with distributed agile teams
+    url: https://help.realtimeboard.com/solution/articles/11000008278-achieve-goals-with-distributed-agile-teams
 blogArticles:
-  - https://realtimeboard.com/blog/building-product-roadmap-template/#.WFKSLXV97CI
+  - title: Building a Product Roadmap that Works
+    url: https://realtimeboard.com/blog/building-product-roadmap-template
