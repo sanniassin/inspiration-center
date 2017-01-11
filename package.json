@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/shatrovskii/inspiration-center#readme",
   "devDependencies": {
+    "camelcase": "^4.0.0",
     "cheerio": "^0.22.0",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",

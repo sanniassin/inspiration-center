@@ -1,10 +1,8 @@
 Примеры конфигураций разделов demo boards, templates, videos, use cases, articles
 =
 
-Примечание:
-знаком # указываются комментарии. Эти строки не обязательны и не влияют на готовую конфигурацию.
-
 demo-boards.yml
+Это список всех демо досок, которые учавствуют в поиске с тегами, при помощи которых этот поиск и будет осуществляться.
 -
 ```
 # Agile processes Demo
@@ -19,46 +17,19 @@ demo-boards.yml
   - workshop
 ```
 
-templates.yml
--
-```
-# User Story Map
-- id: 3074457345769008393
-  tags: 
-  - agile
-  
-# Kanban/Scrum Board
-- id: 93228083
-  tags: 
-  - kanban
-  - scrum
-```
-
 videos.yml
 -
+Это список всех видео, которые будут учавствовать в поиске в виде url.
+Поиск будет осуществляться по напименованиям и описанию, которые будут подгружены в процессе сборки конфигурации.
 ```
 # Customer Journey Mapping
-- url: https://vimeo.com/106236408
-  tags:
-    - agile
-    - scrum
-    
+- https://vimeo.com/106236408
 # The Task Board    
-- url: https://www.youtube.com/watch?v=Ti2g66b7MUo
-  tags:
-    - ux
-    - canban
+- https://www.youtube.com/watch?v=Ti2g66b7MUo
 ```
 
-case-studies.yml, articles.yml
+Примечание
 -
-```
-- title: Achieve goals with distributed agile teams
-  url: https://help.realtimeboard.com/support/solutions/articles/11000008278-achieve-goals-with-distributed-agile-teams
-  tags:
-    - agile
-- title: Get your remote team together to make UX effective
-  url: https://help.realtimeboard.com/support/solutions/articles/11000010890-get-your-remote-team-together-to-make-ux-effective
-  tags:
-    - ux
-```    
+- Знаком # указываются комментарии. Эти строки не обязательны и не влияют на готовую конфигурацию.
+- В поиске будут учавстовать все публичные шаблоны. Поиск будет осуществляться по названию и описанию шаблона, а также по названию категории, в которую они входят.
+- Поиск по блогу и базе знаний будет осуществляться стандартным способом через открытое API.
