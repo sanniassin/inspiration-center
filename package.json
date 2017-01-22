@@ -27,6 +27,7 @@
     "merge-defaults": "^0.2.1",
     "moment": "^2.17.1",
     "request": "^2.79.0",
-    "through2": "^2.0.3"
+    "through2": "^2.0.3",
+    "tv4": "^1.2.7"
   }
 }
