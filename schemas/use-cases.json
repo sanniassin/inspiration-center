@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
-  "title" "Use cases schema"
+  "title": "Use cases schema",
   "definitions": {
     "hyperLink": {
       "type": "object",
@@ -38,18 +38,7 @@
     "videos": {
       "type": "array",
       "items": {
-        "allOf": [
-          {
-            "$ref": "#/definitions/hyperLink"
-          },
-          {
-            "properties": {
-              "thumbnail": {
-                "type": "string"
-              }
-            }
-          }
-        ]
+        "type": "string"
       }
     },
     "templates": {
