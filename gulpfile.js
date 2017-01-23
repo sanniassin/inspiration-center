@@ -1,13 +1,13 @@
 'use strict';
 
-let gulp = require('gulp-param')(require("gulp"), process.argv),
-	yaml = require('gulp-yaml'),
-	clean = require('gulp-clean'),
-	jsoncombine = require("gulp-jsoncombine"),
-	VideoParser = require('./lib/video-parser'),
-	through = require('through2'),
-	utils = require('./lib/utils'),
-	camelCase = require('camelcase')
+let gulp = require('gulp-param')(require("gulp"), process.argv)
+let yaml = require('gulp-yaml')
+let clean = require('gulp-clean')
+let jsoncombine = require("gulp-jsoncombine")
+let VideoParser = require('./lib/video-parser')
+let through = require('through2')
+let utils = require('./lib/utils')
+let camelCase = require('camelcase')
 
 gulp.task('clean', function() {
   return gulp.src(['dist'], {read: false})
@@ -31,6 +31,19 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 			safe: true,
 			space: 2
 		}))
+		// validate JSON schemas
+		.pipe(through.obj((file, encoding, callback) => {
+			utils.validateJSON(file.path, file.contents)
+				.then(() => {
+					callback(null, file)
+				})
+				// todo // make this code work
+				// .catch((err) => {
+				// 	console.log(`Error validating file ${file.path}`)
+				// 	console.log(err)
+				// 	callback(err)
+				// })
+		}))
 		// concat JSON files in to one
 		.pipe(jsoncombine('config.json', (data, meta) => {
 			let result = {};
@@ -45,12 +58,12 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 			}
 			return new Buffer(JSON.stringify(result));
 		}))
-		// get video metadata
-		.pipe(through.obj((file, enc, cb) => {
+		// get video meta
+		.pipe(through.obj((file, encoding, callback) => {
 			utils.populateVideos(JSON.parse(file.contents.toString()), videoParser)
 				.then((result) => {
 					file.contents = new Buffer(JSON.stringify(result))
-					cb(null, file)
+					callback(null, file)
 				})
 		}))
 		.pipe(gulp.dest('./dist'));
