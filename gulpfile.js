@@ -37,11 +37,12 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 				.then(() => {
 					callback(null, file)
 				})
-				.catch((err) => {
-					console.log(`Error validating file ${file.path}`)
-					console.log(err)
-					callback(err)
-				})
+				// todo // make this code work
+				// .catch((err) => {
+				// 	console.log(`Error validating file ${file.path}`)
+				// 	console.log(err)
+				// 	callback(err)
+				// })
 		}))
 		// concat JSON files in to one
 		.pipe(jsoncombine('config.json', (data, meta) => {
