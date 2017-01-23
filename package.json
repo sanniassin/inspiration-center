@@ -24,6 +24,7 @@
     "gulp-jsoncombine": "https://github.com/reflog/gulp-jsoncombine.git",
     "gulp-param": "^1.0.3",
     "gulp-yaml": "^1.0.1",
+    "keyword-extractor": "0.0.13",
     "merge-defaults": "^0.2.1",
     "moment": "^2.17.1",
     "request": "^2.79.0",

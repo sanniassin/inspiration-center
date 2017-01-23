@@ -3,6 +3,7 @@
 let gulp = require('gulp-param')(require("gulp"), process.argv)
 let yaml = require('gulp-yaml')
 let clean = require('gulp-clean')
+let gutil = require('gulp-util')
 let jsoncombine = require("gulp-jsoncombine")
 let VideoParser = require('./lib/video-parser')
 let through = require('through2')
@@ -37,7 +38,7 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 				.then(() => {
 					callback(null, file)
 				})
-				// todo // make this code work
+				// todo // make this code work. It doesn't emit error now.
 				// .catch((err) => {
 				// 	console.log(`Error validating file ${file.path}`)
 				// 	console.log(err)
@@ -59,11 +60,16 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 			return new Buffer(JSON.stringify(result));
 		}))
 		// get video meta
+		// todo // throw errors
 		.pipe(through.obj((file, encoding, callback) => {
 			utils.populateVideos(JSON.parse(file.contents.toString()), videoParser)
 				.then((result) => {
 					file.contents = new Buffer(JSON.stringify(result))
 					callback(null, file)
+				})
+				.catch((err) => {
+					console.log(err)
+					throw new Error(err)
 				})
 		}))
 		.pipe(gulp.dest('./dist'));
