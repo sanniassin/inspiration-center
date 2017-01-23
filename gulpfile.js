@@ -3,7 +3,6 @@
 let gulp = require('gulp-param')(require("gulp"), process.argv)
 let yaml = require('gulp-yaml')
 let clean = require('gulp-clean')
-let gutil = require('gulp-util')
 let jsoncombine = require("gulp-jsoncombine")
 let VideoParser = require('./lib/video-parser')
 let through = require('through2')
