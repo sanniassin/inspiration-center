@@ -1,6 +1,37 @@
-title: Brainstorm and organize ideas
-description: Idea generation and organizing thoughts visually.
+title: Innovation & Ideation
+description: Get inspired by brainstorming techniques, organize your thoughts on a mindmap and much more.
 image: brainstorm.svg
+demoBoards:
+# Brainstorming Demo Board
+- iXjVOf1y2v4=
 videos:
-  - http://vimeo.com/86984501
-  - https://vimeo.com/163681819
+# Agile Management in RealtimeBoard
+templates: 
+# Concept Map
+- o9J_k0vujRg=
+# Flowchart
+- o9J_k0vujgU=
+# 5Whys
+- o9J_k0vul_k=
+# Affinity Diagram
+- o9J_k0vhoCY=
+# Mind Map
+- iXjVOf12ON8=
+# Fishbone Diagram
+- iXjVOf12OKg=
+# KWL Chart
+- iXjVOf1Xd7U=
+# Vienn Diagram
+- iXjVOf1o-j8=
+# Random Words
+- iXjVOf1o-W4=
+# Six Thinking Hats
+- iXjVOf1o-EA=
+helpTopics:
+blogArticles:
+  - title: Idea Life Cycle – From Concept to Implementation
+    url: https://realtimeboard.com/blog/idea-life-cycle-realtimeboard/
+  - title: 3 Simple Ways to Boost Your Brainstorming Session with RealtimeBoard
+    url: https://realtimeboard.com/blog/boost-brainstorming-session/
+  - title: 16 Secrets of Engaging Remote Meetings
+    url: https://realtimeboard.com/blog/engaging-remote-meetings/
