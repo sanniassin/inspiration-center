@@ -1,17 +1,47 @@
-title: Create agile boards
-description: User story maps, kanban boards and retrospectives.
+title: Business Analysis & Strategy
+description: Work on your strategy, describe all the important aspects of your business on one page.  
 image: roadmaps.svg
 demoBoards:
-  # Kanban Demo Board
-  - iXjVOf1y2y8=
+  # Business Model Demo Board
+  - iXjVOf1y26U=
+  # Remote Managers Meeting
+  - o9J_k0sOPCY=
 videos:
   # Video from Vimeo
-  - https://vimeo.com/106236408
-  # Video from Youtube
-  - https://www.youtube.com/watch?v=Ti2g66b7MUo
+templates: 
+# Startup Canvas
+- iXjVOf1XcC4=
+# App Development Canvas
+- iXjVOf1oBM4=
+# Project Canvas
+- iXjVOf1oByI=
+# Project Canvas II
+- iXjVOf1oBFE=
+# Lean Canvas
+- iXjVOf1oBUw=
+# Business Model Canvas
+- iXjVOf12RVc=
+# Action Plan
+- o9J_k0vhmVM=
+# SWOT Analysis
+- iXjVOf1o_8U=
+# BCG Matrix
+- iXjVOf1o_Dg=
+# Balanced Scorecard
+- iXjVOf1XehA=
+# 4P Marketing Mix
+- iXjVOf1XcXU=
+# PEST Analysis
+- iXjVOf0uzbc=
+# Organization Chart
+- iXjVOf1o_Rg=
+# Porter's Five Forces
+- o9J_k0usuH0=
 helpTopics:
-  - title: Help topic
-    url: https://help.realtimeboard.com/solution/articles/11000008278-achieve-goals-with-distributed-agile-teams
 blogArticles:
-  - title: Blog article
-    url: https://realtimeboard.com/blog/building-product-roadmap-template
+ - title: Dialogue Mapping in RealtimeBoard
+    url: https://realtimeboard.com/blog/dialogue-mapping/
+ - title: How to Create Concepts Online with RealtimeBoard
+    url: https://realtimeboard.com/blog/create-concepts-online-realtimeboard/
+ - title: Collaborating on Visual Frameworks. Case Study by Group Partners
+    url: https://realtimeboard.com/blog/collaboration-visual-frameworks/
