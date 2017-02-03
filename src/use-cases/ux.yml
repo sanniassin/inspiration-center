@@ -1,3 +1,41 @@
-title: Work on UX design
+title: UX Research & Design
 image: ux.svg
-description: Research, customer journey map, wireframes.
+description: How to work on UX at RealtimeBoard.
+demoBoards:
+# Lean UX Workshop
+- o9J_k0ivyus=
+# Customer Journey Demo Board
+- o9J_k0vuD_k=
+# Web Page Design
+- iXjVOf1y2KM=
+# Designing User Flow Demo Board
+- o9J_k0ivomI=
+# UX Research Demo Board
+- o9J_k0sOIMg=
+templates: 
+# Empathy Map
+- iXjVOf1oFd0=
+# Visual Story Map
+- iXjVOf1oHYo=
+# Personas
+- iXjVOf1oCno=
+# Service Blueprint
+- iXjVOf1oBoI=
+# Look, Mock, Analyze
+- iXjVOf1oE5w=
+# Workflow
+- iXjVOf1XcGg=
+# Customer Journey Map
+- iXjVOf1o9gY=
+# Customer Journey Map II
+- o9J_k0yWdd4=
+helpTopics:
+  - title: Gather your remote team to make UX effective
+    url: https://help.realtimeboard.com/support/solutions/articles/11000010890-gather-your-remote-team-to-make-ux-effective
+blogArticles:
+  - title: "SapientNitro: Kill wireframes. Fuel creativity"
+    url: https://realtimeboard.com/blog/kill-wireframes-fuel-creativity-sapientnitro/
+  - title: Introduction to User Personas
+    url: https://realtimeboard.com/blog/introduction-user-personas/
+  - title: All You Need to Know Before Customer Journey Mapping
+    url: https://realtimeboard.com/blog/customer-journey/
