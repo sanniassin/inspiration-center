@@ -6,8 +6,6 @@ demoBoards:
   - iXjVOf1y26U=
   # Remote Managers Meeting
   - o9J_k0sOPCY=
-videos:
-  # Video from Vimeo
 templates: 
 # Startup Canvas
 - iXjVOf1XcC4=
@@ -37,7 +35,6 @@ templates:
 - iXjVOf1o_Rg=
 # Porter's Five Forces
 - o9J_k0usuH0=
-helpTopics:
 blogArticles:
  - title: Dialogue Mapping in RealtimeBoard
    url: https://realtimeboard.com/blog/dialogue-mapping/

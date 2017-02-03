@@ -4,8 +4,6 @@ image: brainstorm.svg
 demoBoards:
 # Brainstorming Demo Board
 - iXjVOf1y2v4=
-videos:
-# Agile Management in RealtimeBoard
 templates: 
 # Concept Map
 - o9J_k0vujRg=
@@ -27,7 +25,6 @@ templates:
 - iXjVOf1o-W4=
 # Six Thinking Hats
 - iXjVOf1o-EA=
-helpTopics:
 blogArticles:
   - title: Idea Life Cycle – From Concept to Implementation
     url: https://realtimeboard.com/blog/idea-life-cycle-realtimeboard/
