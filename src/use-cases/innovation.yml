@@ -1,6 +1,7 @@
 title: Innovation & Ideation
 description: Get inspired by brainstorming techniques, organize your thoughts on a mindmap and much more.
 image: brainstorm.svg
+order: 1
 demoBoards:
 # Brainstorming Demo Board
 - iXjVOf1y2v4=
@@ -26,9 +27,9 @@ templates:
 # Six Thinking Hats
 - iXjVOf1o-EA=
 blogArticles:
-  - title: Idea Life Cycle – From Concept to Implementation
-    url: https://realtimeboard.com/blog/idea-life-cycle-realtimeboard/
-  - title: 3 Simple Ways to Boost Your Brainstorming Session with RealtimeBoard
-    url: https://realtimeboard.com/blog/boost-brainstorming-session/
-  - title: 16 Secrets of Engaging Remote Meetings
-    url: https://realtimeboard.com/blog/engaging-remote-meetings/
+  # Idea Life Cycle – From Concept to Implementation
+  - https://realtimeboard.com/blog/idea-life-cycle-realtimeboard/
+  # 3 Simple Ways to Boost Your Brainstorming Session with RealtimeBoard
+  - https://realtimeboard.com/blog/boost-brainstorming-session/
+  # 16 Secrets of Engaging Remote Meetings
+  - https://realtimeboard.com/blog/engaging-remote-meetings/

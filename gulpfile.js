@@ -61,7 +61,7 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 		// get video meta
 		// todo // throw errors
 		.pipe(through.obj((file, encoding, callback) => {
-			utils.populateVideos(JSON.parse(file.contents.toString()), videoParser)
+			utils.populateData(JSON.parse(file.contents.toString()), videoParser)
 				.then((result) => {
 					file.contents = new Buffer(JSON.stringify(result))
 					callback(null, file)
