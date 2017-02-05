@@ -1,6 +1,7 @@
 title: Create agile boards
 description: User story maps, kanban boards and retrospectives.
 image: agile.svg
+order: 3
 demoBoards:
 # Agile Process Demo Board
 - o9J_k0ivzog=
@@ -36,9 +37,9 @@ helpTopics:
   - title: Achieve goals with distributed agile teams
     url: https://help.realtimeboard.com/solution/articles/11000008278-achieve-goals-with-distributed-agile-teams
 blogArticles:
-  - title: Building a Product Roadmap that Works
-    url: https://realtimeboard.com/blog/building-product-roadmap-template
-  - title: Remote Agile Teams, Their Problems and Aha’s by Mingle Analytics
-    url: https://realtimeboard.com/blog/remote-agile-teams-problems-ahas/
-  - title: How Certified Scrum Master Applies RealtimeBoard to Agile Practices
-    url: https://realtimeboard.com/blog/online-scrum-board/
+  # Building a Product Roadmap that Works
+  - https://realtimeboard.com/blog/building-product-roadmap-template
+  # Remote Agile Teams, Their Problems and Aha’s by Mingle Analytics
+  - https://realtimeboard.com/blog/remote-agile-teams-problems-ahas/
+  # How Certified Scrum Master Applies RealtimeBoard to Agile Practices
+  - https://realtimeboard.com/blog/online-scrum-board/

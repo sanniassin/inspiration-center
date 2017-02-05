@@ -1,6 +1,7 @@
 title: Business Analysis & Strategy
 description: Work on your strategy, describe all the important aspects of your business on one page.  
 image: roadmaps.svg
+order: 4
 demoBoards:
   # Business Model Demo Board
   - iXjVOf1y26U=
@@ -36,9 +37,9 @@ templates:
 # Porter's Five Forces
 - o9J_k0usuH0=
 blogArticles:
- - title: Dialogue Mapping in RealtimeBoard
-   url: https://realtimeboard.com/blog/dialogue-mapping/
- - title: How to Create Concepts Online with RealtimeBoard
-   url: https://realtimeboard.com/blog/create-concepts-online-realtimeboard/
- - title: Collaborating on Visual Frameworks. Case Study by Group Partners
-   url: https://realtimeboard.com/blog/collaboration-visual-frameworks/
+ # Dialogue Mapping in RealtimeBoard
+ - https://realtimeboard.com/blog/dialogue-mapping/
+ # How to Create Concepts Online with RealtimeBoard
+ - https://realtimeboard.com/blog/create-concepts-online-realtimeboard/
+ # Collaborating on Visual Frameworks. Case Study by Group Partners
+ - https://realtimeboard.com/blog/collaboration-visual-frameworks/
