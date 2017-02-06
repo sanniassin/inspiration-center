@@ -8,6 +8,14 @@ demoBoards:
   # Remote Managers Meeting
   - o9J_k0sOPCY=
 templates: 
+# Organization Chart
+- iXjVOf1o_Rg=
+# Business Model Canvas
+- iXjVOf12RVc=
+# Action Plan
+- o9J_k0vhmVM=
+# SWOT Analysis
+- iXjVOf1o_8U=
 # Startup Canvas
 - iXjVOf1XcC4=
 # App Development Canvas
@@ -18,12 +26,6 @@ templates:
 - iXjVOf1oBFE=
 # Lean Canvas
 - iXjVOf1oBUw=
-# Business Model Canvas
-- iXjVOf12RVc=
-# Action Plan
-- o9J_k0vhmVM=
-# SWOT Analysis
-- iXjVOf1o_8U=
 # BCG Matrix
 - iXjVOf1o_Dg=
 # Balanced Scorecard
@@ -32,8 +34,6 @@ templates:
 - iXjVOf1XcXU=
 # PEST Analysis
 - iXjVOf0uzbc=
-# Organization Chart
-- iXjVOf1o_Rg=
 # Porter's Five Forces
 - o9J_k0usuH0=
 blogArticles:
