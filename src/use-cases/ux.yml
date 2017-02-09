@@ -14,22 +14,22 @@ demoBoards:
 # UX Research Demo Board
 - o9J_k0sOIMg=
 templates: 
+# Customer Journey Map
+- iXjVOf1o9gY=
+# Customer Journey Map II
+- o9J_k0yWdd4=
 # Empathy Map
 - iXjVOf1oFd0=
-# Visual Story Map
-- iXjVOf1oHYo=
 # Personas
 - iXjVOf1oCno=
+# Visual Story Map
+- iXjVOf1oHYo=
 # Service Blueprint
 - iXjVOf1oBoI=
 # Look, Mock, Analyze
 - iXjVOf1oE5w=
 # Workflow
 - iXjVOf1XcGg=
-# Customer Journey Map
-- iXjVOf1o9gY=
-# Customer Journey Map II
-- o9J_k0yWdd4=
 helpTopics:
   - title: Gather your remote team to make UX effective
     url: https://help.realtimeboard.com/support/solutions/articles/11000010890-gather-your-remote-team-to-make-ux-effective
