@@ -53,7 +53,7 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 					let collectionName = camelCase(path.dirname(key))
 					let fileName = camelCase(path.basename(key, '.json'))
 					let data = data[key]
-					let data._id = fileName
+					data._id = fileName
 					let collection = result[collectionName] || (result[collectionName] = [])
 					collection.push(data[key])
 				} else {
