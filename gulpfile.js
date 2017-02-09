@@ -8,6 +8,7 @@ let VideoParser = require('./lib/video-parser')
 let through = require('through2')
 let utils = require('./lib/utils')
 let camelCase = require('camelcase')
+let path = require('path')
 
 gulp.task('clean', function() {
   return gulp.src(['dist'], {read: false})
@@ -49,7 +50,10 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 			let result = {};
 			for (let key in data) {
 				if (~key.indexOf('/')) {
-					let collectionName = camelCase(key.split('/')[0])
+					let collectionName = camelCase(path.dirname(key))
+					let fileName = camelCase(path.basename(key, '.json'))
+					let data = data[key]
+					let data._id = fileName
 					let collection = result[collectionName] || (result[collectionName] = [])
 					collection.push(data[key])
 				} else {
