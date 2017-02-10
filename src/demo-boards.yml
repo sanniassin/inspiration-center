@@ -1,7 +1,100 @@
 # DEMO BOARDS ##################################################################
 ################################################################################
-# some demo board
+# Web Page Design
+- id: iXjVOf1y2KM=
+  tags: 
+    - design
+    - wireframes
+# Business Model
+- id: iXjVOf1y26U=
+  tags: 
+    - business model
+    - canvas
+# Kanban Board
+- id: iXjVOf1y2y8=
+  tags: 
+    - kanban
+    - agile
+    - scrum
+    - task
+    - sprint
+# Brainstorming
+- id: iXjVOf1y2v4=
+  tags: 
+    - brainstorm
+    - brainstorming
+    - ideate
+    - ideation
+# Lean UX workshop
+- id: o9J_k0ivyus=
+  tags: 
+    - lean
+    - ux  
+    - persona
+# Designing User Flow
+- id: o9J_k0ivomI=
+  tags: 
+    - flow
+    - design
+    - wireframes
+    - wireframing
+# Agile processes
 - id: o9J_k0ivzog=
   tags: 
-    - tag1
-    - tag2
+    - backlog
+    - scrum
+    - kanban
+    - user story
+    - story map
+    - task
+    - retrospective
+    - roadmap
+ # Building Product Roadmap
+- id: o9J_k0iv19s=
+  tags: 
+    - roadmap
+    - feature  
+    - cost
+    - benefit
+# Customer Journey
+- id: o9J_k0vuD_k=
+  tags: 
+    - persona
+    - empathy
+    - customer journey
+    - user journey
+    - research
+    - service blueprint
+    - blueprint
+    - plan
+    - action
+    - ux
+# Remote Managers Meeting
+- id: o9J_k0sOPCY=
+  tags: 
+    - meeting
+    - remote  
+    - agenda
+    - action
+    - plan
+    - retrospective
+# UX Research
+- id: o9J_k0sOIMg=
+  tags: 
+    - persona
+    - empathy  
+    - research
+    - action
+    - plan
+    - cost
+    - benefit
+    - ux
+# Getting Started
+- id: o9J_k0yQLV4=
+  tags: 
+    - start
+    - beginners guide
+    - beginners
+    - guide
+    - getting started
+    - started
