@@ -57,7 +57,7 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 					let collection = result[collectionName] || (result[collectionName] = [])
 					collection.push(itemData)
 				} else {
-					result[key] = data[key]
+					result[camelCase(key)] = data[key]
 				}
 			}
 			return new Buffer(JSON.stringify(result));
