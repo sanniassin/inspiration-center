@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "Use cases schema",
+  "definitions": {
+    "hostedContent": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "file": {
+          "type": "string"
+        },
+        "preview": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "file",
+        "preview"
+      ]
+    },
+    "applicationObject": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "preview": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "preview",
+        "id"
+      ]
+    }
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "howTo": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/hostedContent"
+      }
+    },
+    "pdfDocuments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/hostedContent"
+      }
+    },
+    "modalForms": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/applicationObject"
+      }
+    },
+    "videos": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "helpTopics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "url"
+        ]
+      }
+    },
+    "tutorials": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/applicationObject"  
+      }
+    }
+  },
+  "required": [
+    "title",
+    "description",
+    "order",
+    "image"
+  ]
+}
