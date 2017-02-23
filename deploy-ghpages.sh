@@ -22,7 +22,7 @@ else
 		git config user.name "travis"
 		git config user.email "travis"
 		git add -A .
-		git commit -m $TRAVIS_COMMIT_MESSAGE
+		git commit -m ${TRAVIS_COMMIT_MESSAGE}
 		OWNER=`dirname $TRAVIS_REPO_SLUG`
 		git push -f -q https://$OWNER:$GITHUB_API_TOKEN@github.com/$TRAVIS_REPO_SLUG $TARGET_BRANCH > /dev/null 2>&1
 	fi
