@@ -15,6 +15,9 @@ modalForms:
   - title: Shortcuts
     id: SHORTCUTS
     preview: multiple-objects.png
+  - title: Interface Explained
+    id: TIPS
+    preview: multiple-objects.png
 tutorials:
   - title: Tutorial
     id: FULL
