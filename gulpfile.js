@@ -78,12 +78,18 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 		.pipe(gulp.dest('./dist'));
 })
 
+// remove after client release
 gulp.task('images', ['clean'], function() {
 	return gulp.src(['./img/*'])
 		.pipe(gulp.dest('./dist/img'))
 })
 
-gulp.task('build', ['compile', 'images'])
+gulp.task('content', ['clean'], function() {
+	return gulp.src(['./content/**/*'])
+		.pipe(gulp.dest('./dist/content'))
+})
+
+gulp.task('build', ['compile', 'images', 'content'])
 
 gulp.task('watch', function() {
 	gulp.watch(['./src/**/*', 'gulpfile.js'], ['build'])

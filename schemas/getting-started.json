@@ -64,7 +64,7 @@
         "$ref": "#/definitions/hostedContent"
       }
     },
-    "pdfDocuments": {
+    "guides": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/hostedContent"
