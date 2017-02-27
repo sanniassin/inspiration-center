@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="47px" viewBox="0 0 42 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>634F514F-7748-44B6-B236-0E7E4DFCD4D5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Learn_Center_2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main" transform="translate(-648.000000, -320.000000)">
+            <g id="Use-Cases" transform="translate(624.000000, 101.000000)">
+                <g id="Roadmaps" transform="translate(0.000000, 219.000000)">
+                    <g id="txt" transform="translate(20.000000, 0.000000)">
+                        <g id="Export">
+                            <rect id="Rectangle-5" x="0" y="0" width="50" height="50"></rect>
+                            <polyline id="Rectangle-11" stroke="#6B7588" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="29 14 45 14 45 40 5 40 5 14 21 14"></polyline>
+                            <path d="M21,40 L21,46" id="Path-16" stroke="#6B7588" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M29,40 L29,46" id="Path-16" stroke="#6B7588" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M17,46 L33,46" id="Path-17" stroke="#6B7588" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M25,24 L25,1" id="Path-18" stroke="#7CC576" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <polyline id="Path-19" stroke="#7CC576" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="20 6 25 1 30 6"></polyline>
+                            <circle id="Oval-8" stroke="#7CC576" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="25" cy="27" r="3"></circle>
+                            <path d="M18,27 C18,30.8659932 21.1340068,34 25,34 L25,34 M32,27 C32,23.1340068 28.8659932,20 25,20" id="Oval-8" stroke="#7CC576" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(25.000000, 27.000000) rotate(45.000000) translate(-25.000000, -27.000000) "></path>
+                            <path d="M14,27 C14,33.0751322 18.9248678,38 25,38 L25,38 M36,27 C36,20.9248678 31.0751322,16 25,16" id="Oval-8" stroke="#7CC576" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(25.000000, 27.000000) rotate(45.000000) translate(-25.000000, -27.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
