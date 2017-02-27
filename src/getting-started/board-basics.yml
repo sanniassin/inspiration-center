@@ -1,27 +1,16 @@
 title: Board Basics
 description: Get familiar with whiteboard tools and pick up some advanced tips.
 image: img/board-basics.svg
-order: 0
+order: 1
 howTo:
-  - title: Select and move multiple objects
-    file: gif/multiple-objects.gif
-    preview: gif/multiple-objects.png
-    description: To select multiple objects, hold down Shift and drag the selection field across the objects or click them one by one. The selected objects can be moved, resized, locked, grouped, and aligned together.
+  - multiple-objects
 guides:
-  - title: Some pdf
-    file: pdf/inspiration-center.pdf
-    preview: pdf/inspiration-center.png
+  - inspiration-center
 modalForms:
-  - title: Shortcuts
-    id: SHORTCUTS
-    preview: img/multiple-objects.png
-  - title: Interface Explained
-    id: TIPS
-    preview: img/multiple-objects.png
+  - SHORTCUTS
+  - TIPS
 tutorials:
-  - title: Tutorial
-    id: FULL
-    preview: img/multiple-objects.png
+  - FULL
 videos:
   - https://www.youtube.com/watch?v=Pa_W0zW0M4Y
 helpTopics:

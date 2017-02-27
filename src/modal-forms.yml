@@ -1,10 +1,10 @@
-- title: Shortcuts
-  id: SHORTCUTS
+- id: SHORTCUTS
+  title: Shortcuts
   preview: img/multiple-objects.png
   tags:
     - shortcuts
-- title: Interface Explained
-  id: TIPS
+- id: TIPS
+  title: Interface Explained
   preview: img/multiple-objects.png
   tags:
       - interface
