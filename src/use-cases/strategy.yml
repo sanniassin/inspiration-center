@@ -1,0 +1,45 @@
+title: Business Analysis & Strategy
+description: Work on your strategy with an extensive list of business canvases
+image: roadmaps.svg
+order: 4
+demoBoards:
+  # Business Model Demo Board
+  - iXjVOf1y26U=
+  # Remote Managers Meeting
+  - o9J_k0sOPCY=
+templates: 
+# Organization Chart
+- iXjVOf1o_Rg=
+# Business Model Canvas
+- iXjVOf12RVc=
+# Action Plan
+- o9J_k0vhmVM=
+# SWOT Analysis
+- iXjVOf1o_8U=
+# Startup Canvas
+- iXjVOf1XcC4=
+# App Development Canvas
+- iXjVOf1oBM4=
+# Project Canvas
+- iXjVOf1oByI=
+# Project Canvas II
+- iXjVOf1oBFE=
+# Lean Canvas
+- iXjVOf1oBUw=
+# BCG Matrix
+- iXjVOf1o_Dg=
+# Balanced Scorecard
+- iXjVOf1XehA=
+# 4P Marketing Mix
+- iXjVOf1XcXU=
+# PEST Analysis
+- iXjVOf0uzbc=
+# Porter's Five Forces
+- o9J_k0usuH0=
+blogArticles:
+ # Dialogue Mapping in RealtimeBoard
+ - https://realtimeboard.com/blog/dialogue-mapping/
+ # How to Create Concepts Online with RealtimeBoard
+ - https://realtimeboard.com/blog/create-concepts-online-realtimeboard/
+ # Collaborating on Visual Frameworks. Case Study by Group Partners
+ - https://realtimeboard.com/blog/collaboration-visual-frameworks/

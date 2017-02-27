@@ -8,6 +8,7 @@ let VideoParser = require('./lib/video-parser')
 let through = require('through2')
 let utils = require('./lib/utils')
 let camelCase = require('camelcase')
+let path = require('path')
 
 gulp.task('clean', function() {
   return gulp.src(['dist'], {read: false})
@@ -49,11 +50,14 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 			let result = {};
 			for (let key in data) {
 				if (~key.indexOf('/')) {
-					let collectionName = camelCase(key.split('/')[0])
+					let collectionName = camelCase(path.dirname(key))
+					let fileName = camelCase(path.basename(key, '.json'))
+					let itemData = data[key]
+					itemData._id = fileName
 					let collection = result[collectionName] || (result[collectionName] = [])
-					collection.push(data[key])
+					collection.push(itemData)
 				} else {
-					result[key] = data[key]
+					result[camelCase(key)] = data[key]
 				}
 			}
 			return new Buffer(JSON.stringify(result));
@@ -61,7 +65,7 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 		// get video meta
 		// todo // throw errors
 		.pipe(through.obj((file, encoding, callback) => {
-			utils.populateVideos(JSON.parse(file.contents.toString()), videoParser)
+			utils.populateData(JSON.parse(file.contents.toString()), videoParser)
 				.then((result) => {
 					file.contents = new Buffer(JSON.stringify(result))
 					callback(null, file)

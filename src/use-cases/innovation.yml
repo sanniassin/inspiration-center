@@ -1,0 +1,35 @@
+title: Innovation & Ideation
+description: Get inspired by brainstorming techniques, organize your thoughts and much more
+image: brainstorm.svg
+order: 1
+demoBoards:
+# Brainstorming Demo Board
+- iXjVOf1y2v4=
+templates: 
+# Concept Map
+- o9J_k0vujRg=
+# Flowchart
+- o9J_k0vujgU=
+# 5Whys
+- o9J_k0vul_k=
+# Affinity Diagram
+- o9J_k0vhoCY=
+# Mind Map
+- iXjVOf12ON8=
+# Fishbone Diagram
+- iXjVOf12OKg=
+# KWL Chart
+- iXjVOf1Xd7U=
+# Vienn Diagram
+- iXjVOf1o-j8=
+# Random Words
+- iXjVOf1o-W4=
+# Six Thinking Hats
+- iXjVOf1o-EA=
+blogArticles:
+  # Idea Life Cycle – From Concept to Implementation
+  - https://realtimeboard.com/blog/idea-life-cycle-realtimeboard/
+  # 3 Simple Ways to Boost Your Brainstorming Session with RealtimeBoard
+  - https://realtimeboard.com/blog/boost-brainstorming-session/
+  # 16 Secrets of Engaging Remote Meetings
+  - https://realtimeboard.com/blog/engaging-remote-meetings/

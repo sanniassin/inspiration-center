@@ -56,12 +56,16 @@
     "blogArticles": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/hyperLink"
+        "type": "string"
       }
+    },
+    "order": {
+      "type": "integer"
     }
   },
   "required": [
     "title",
-    "description"
+    "description",
+    "order"
   ]
 }
