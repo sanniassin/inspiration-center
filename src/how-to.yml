@@ -1,0 +1,8 @@
+- id: multiple-objects
+  title: Select and move multiple objects
+  file: gif/multiple-objects.gif
+  preview: gif/multiple-objects.png
+  description: To select multiple objects, hold down Shift and drag the selection field across the objects or click them one by one. The selected objects can be moved, resized, locked, grouped, and aligned together.
+  tags:
+    - multiple
+    - objects

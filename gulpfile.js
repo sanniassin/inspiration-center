@@ -53,7 +53,8 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 					let collectionName = camelCase(path.dirname(key))
 					let fileName = camelCase(path.basename(key, '.json'))
 					let itemData = data[key]
-					itemData._id = fileName
+					itemData._id = fileName // todo // remove after client release
+					itemData.id = fileName
 					let collection = result[collectionName] || (result[collectionName] = [])
 					collection.push(itemData)
 				} else {
@@ -65,7 +66,7 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 		// get video meta
 		// todo // throw errors
 		.pipe(through.obj((file, encoding, callback) => {
-			utils.populateData(JSON.parse(file.contents.toString()), videoParser)
+			utils.prepareData(JSON.parse(file.contents.toString()), videoParser)
 				.then((result) => {
 					file.contents = new Buffer(JSON.stringify(result))
 					callback(null, file)
@@ -78,12 +79,18 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 		.pipe(gulp.dest('./dist'));
 })
 
+// todo // remove after client release
 gulp.task('images', ['clean'], function() {
-	return gulp.src(['./img/*'])
+	return gulp.src(['./img/**/*'])
 		.pipe(gulp.dest('./dist/img'))
 })
 
-gulp.task('build', ['compile', 'images'])
+gulp.task('content', ['clean'], function() {
+	return gulp.src(['./content/**/*'])
+		.pipe(gulp.dest('./dist/content'))
+})
+
+gulp.task('build', ['compile', 'images', 'content'])
 
 gulp.task('watch', function() {
 	gulp.watch(['./src/**/*', 'gulpfile.js'], ['build'])

@@ -14,16 +14,17 @@ else
 			TARGET_DIR=$PUBLISH_DIR
 		else
 			TARGET_DIR=$PUBLISH_DIR/$TRAVIS_BRANCH
-			mkdir -p TARGET_DIR
 		fi
 		
 		rsync -r -f"- */" -f"+ *" --delete $SOURCE_DIR/ $TARGET_DIR/
-		rsync -r -f"- */" -f"+ *" --delete $SOURCE_DIR/img/ $TARGET_DIR/img/
+		# to do // remove after client release
+		rsync -r --delete $SOURCE_DIR/img/ $TARGET_DIR/img/
+		rsync -r --delete $SOURCE_DIR/content/ $TARGET_DIR/content/
 		cd $PUBLISH_DIR
 		git config user.name "travis"
 		git config user.email "travis"
 		git add -A .
-		git commit -m "Deploy to GitHub Pages"
+		git commit -m "$TRAVIS_COMMIT_MESSAGE"
 		OWNER=`dirname $TRAVIS_REPO_SLUG`
 		git push -f -q https://$OWNER:$GITHUB_API_TOKEN@github.com/$TRAVIS_REPO_SLUG $TARGET_BRANCH > /dev/null 2>&1
 	fi
