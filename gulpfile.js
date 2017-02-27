@@ -53,7 +53,8 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 					let collectionName = camelCase(path.dirname(key))
 					let fileName = camelCase(path.basename(key, '.json'))
 					let itemData = data[key]
-					itemData._id = fileName
+					itemData._id = fileName // todo // remove after client release
+					itemData.id = fileName
 					let collection = result[collectionName] || (result[collectionName] = [])
 					collection.push(itemData)
 				} else {
@@ -78,9 +79,9 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 		.pipe(gulp.dest('./dist'));
 })
 
-// remove after client release
+// todo // remove after client release
 gulp.task('images', ['clean'], function() {
-	return gulp.src(['./img/*'])
+	return gulp.src(['./img/**/*'])
 		.pipe(gulp.dest('./dist/img'))
 })
 
