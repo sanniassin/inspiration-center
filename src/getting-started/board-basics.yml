@@ -12,7 +12,20 @@ modalForms:
 tutorials:
   - FULL
 videos:
-  - https://www.youtube.com/watch?v=Pa_W0zW0M4Y
+  # Getting Started with RealtimeBoard 
+  - https://www.youtube.com/watch?v=9f_6l6YDOso
+  # RealtimeBoard Visual Templates Guide
+  - https://www.youtube.com/watch?v=a0T3JU-DLr0
 helpTopics:
-  - title: Achieve goals with distributed agile teams
-    url: https://help.realtimeboard.com/solution/articles/11000008278-achieve-goals-with-distributed-agile-teams
+  - title: How to use the whiteboard toolkit
+    url: https://help.realtimeboard.com/support/solutions/articles/1000033145-how-to-use-the-whiteboard-toolkit
+  - title: Uploading files to boards
+    url: https://help.realtimeboard.com/support/solutions/articles/11000006856-uploading-files-to-boards
+  - title: 10 ways to add content
+    url: https://help.realtimeboard.com/support/solutions/articles/11000008836-10-ways-to-add-content
+  - title: Arranging board content
+    url: https://help.realtimeboard.com/support/solutions/articles/11000008838-arranging-board-content
+  - title: Creating a new board
+    url: https://help.realtimeboard.com/support/solutions/articles/1000033141-creating-a-new-board
+    
+    
