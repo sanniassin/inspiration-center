@@ -4,6 +4,11 @@ image: img/board-basics.svg
 order: 1
 howTo:
   - multiple-objects
+  - navigation
+  - paste-stickers
+  - bulk-add-stickers
+  - links
+  - insert
 guides:
   - inspiration-center
 modalForms:
