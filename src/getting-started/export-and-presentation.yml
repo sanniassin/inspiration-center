@@ -3,7 +3,6 @@ description: Share your boards with the outside world.
 image: img/export.svg
 order: 3
 howTo:
-  - 
 helpTopics:
   - title: How to export and print boards
     url: https://help.realtimeboard.com/support/solutions/articles/1000033159-how-to-export-and-print-boards-

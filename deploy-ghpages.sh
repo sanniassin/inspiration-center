@@ -4,6 +4,9 @@ set -e
 if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
 	echo "Travis should not deploy from pull requests"
   	exit 0
+elif [ ! -f $SOURCE_DIR/config.json ]; then
+	echo "No config file found"
+  	exit 0
 else
 	if [ -n "$GITHUB_API_TOKEN" ]; then
 		REPO=$(git config remote.origin.url)
