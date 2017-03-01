@@ -3,32 +3,80 @@
   title: Select and move multiple objects
   file: gif/multiple-objects.gif
   preview: gif/multiple-objects.png
-  description: To select multiple objects, hold down SHIFT and drag the selection field across the objects or click them one by one. The selected objects can be moved, resized, locked, grouped, and aligned together.
+  description: To select multiple objects, hold down <b>Shift</b> and drag the selection field across the objects or click them one by one. The selected objects can be moved, resized, locked, grouped, and aligned together.
   tags:
     - multiple
     - objects
     - select
+- id: navigation
+  title: How to navigate on the board
+  file: gif/Navigation.gif
+  preview: gif/Navigation.png
+  description: Toggle minimap by pressing M on your keyboard. To navigate around board, scroll your mouse wheel, use the scrolling gesture on a touchpad, or just use the minimap toolbar and adjust your zooming preferences. 
+  tags:
+    - navigate
+    - navigation
+- id: paste-stickers
+  title: How to import stickers from spreadsheet
+  file: gif/Copy cells - paste stickers.gif
+  preview: gif/Copy cells paste stickers.png
+  description: Copy and paste cells from the spreadsheet using CTRL+C / CTRL+V (CMD+C / CMD+V) shortcuts to import them to the board. 
+  tags:
+    - sticker
+    - import
+    - spreadsheet
+    - excell
+    - table
+    - csv
+- id: bulk-add-stickers
+  title: How to add bulk stickers
+  file: gif/Bulk add stickers.gif
+  preview: gif/Bulk add stickers.png
+  description: If you need to add a bunch of stickers in a row, choose the Bulk add mode in a Sticker Tool and start typing away (and don't forget to hit Enter between separate ideas). Click Done, when you are finished. 
+  tags:
+    - sticker
+- id: links
+  title: How to draw arrow connectors
+  file: gif/Links.gif
+  preview: gif/Links.png
+  description: To create a link, select the line or arrow tool in the Shapes menu, click an object and drag your cursor to the other object without releasing the mouse button.
+  tags:
+    - line
+    - link
+    - arrow
+    - connector
+- id: insert
+  title: How to upload files
+  file: gif/Insert.gif
+  preview: gif/Insert.png
+  description: To upload files from your computer, click the + button in the toolbox, and choose Upload or Upload via URL, and other options. 
+  tags:
+    - upload
+    - add
+    - files
+    - insert
+    - google drive
 #Collaboration
 - id: share-board
   title: How to share the board
-  file: gif/share-board.gif
-  preview: gif/share-board.png
-  description: To invite collaborators to the board, click on the SHARE button in the top-right corner, enter the email addresses, set the access rights and click Send. You can also share the board with people outside of RealtimeBoard using a shareable link, or make any board available with a whole team in one click.
+  file: gif/share_board.gif
+  preview: gif/Share board.png
+  description: To invite collaborators to the board, click on the <b>Share</b> button in the top-right corner, enter the email addresses, set the access rights and click Send. You can also share the board with people outside of RealtimeBoard using a shareable link, or make any board available with a whole team in one click.
   tags:
     - share
     - invite
 - id: access-rights
   title: How to change access rights
   file: gif/access_rights.gif
-  preview: gif/access-rights.png
-  description: To edit access rights of existing collaborators on the board, click on the SHARE button in the top-right corner, and choose ADVANCED. Specify access rights for individual users by clicking on the drop-down lists which state their current access rights. 
+  preview: gif/Access rights.png
+  description: To edit access rights of existing collaborators on the board, click on the <b>Share</b> button in the top-right corner, and choose <b>Advanced</b>. Specify access rights for individual users by clicking on the drop-down lists which state their current access rights. 
   tags:
     - access rights
     - change access
 - id: screen-sharing
   title: How to share the screen
   file: gif/screen_sharing.gif
-  preview: gif/screen-sharing.png
+  preview: gif/Screen sharing.png
   description: To share your screen, click the button in the bottom right corner and choose <b>Screen sharing</b>.
   tags:
     - screen sharing 
@@ -36,17 +84,68 @@
 - id: mention
   title: How to @mention someone
   file: gif/mention.gif
-  preview: gif/mention.png
+  preview: gif/Mention.png
   description: To mention a board participant in a comment or chat, type “@” followed by the person’s first and surname, or just pick the right person from the suggestions list that pops up when you start typing. 
   tags:
     - mention 
 - id: resolve-comment
   title: How to resolve a comment thread
   file: gif/resolve_comment.gif
-  preview: gif/resolve_comment.png
+  preview: gif/Resolve.png
   description: To resolve the comments, open a comment thread and click RESOLVE button in the top-left corner of the thread. If you want your resolved comments to be visible on the board, just choose <b>Show resolved</b> option in the Comment feed.
   tags:
     - resolve comment
     - close comment
-    
-      
+- id: show-cursors
+  title: How to collaborate in real time
+  file: gif/Show cursors.gif
+  preview: gif/Show cursors.png
+  description: Click on the Show collaborators' cursors button, and quickly jump to their point of view to see where they are on the board. 
+  tags:
+    - collaborators
+    - show
+    - live
+    - real-time
+#Presentation and Export
+- id: frames
+  title: How to use frames
+  file: gif/Frames.gif
+  preview: gif/Frames.png
+  description: To create your first frame, select the Frames tool or press F on your keyboard, click Create first frame and then resize the blue selection zone to mark the boundaries of the first slide. To switch between the frames, click on their names.
+  tags:
+    - frames
+    - artboard
+    - presentation
+- id: presentation
+  title: How to make a presentation
+  file: gif/Presentation mode.gif
+  preview: gif/Presentation mode.png
+  description: To start creating a presentation, select the Frames tool. Each frame acts like a slide. To rename a frame, double-click on its current name. To reorder frames, click and drag them around. To delete all the frames, click on the trash bin icon. Your presentation can be exported as a PDF document, or previewed in fullscreen mode.
+  tags:
+    - frames
+    - artboard
+    - presentation
+- id: export-stickers
+  title: How export stickers to spreadsheet
+  file: gif/Export stickers.gif
+  preview: gif/Export stickers.png
+  description: To export stickers to spreadsheet, put a frame around it, click on the context menu and choose Export to CSV.
+  tags:
+    - sticker
+    - export
+    - csv
+    - spreadsheet
+    - table
+    - excell
+- id: save-as-PDF
+  title: How to print the board (export as image or pdf)
+  file: gif/Save as PDF.gif
+  preview: gif/Save as PDF.png
+  description: Choose Save as image or Save as PDF in the Export this board menu. Print out the exported document.
+  tags:
+    - save
+    - export
+    - print
+    - pdf
+    - jpg
+    - jpeg   

@@ -1,11 +1,11 @@
 - id: SHORTCUTS
   title: Shortcuts
-  preview: img/multiple-objects.png
+  preview: img/shortcuts-preview.png
   tags:
     - shortcuts
 - id: TIPS
   title: Interface Explained
-  preview: img/multiple-objects.png
+  preview: img/interface-explaned-preview.png
   tags:
       - interface
       - explained
