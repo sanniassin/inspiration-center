@@ -58,7 +58,7 @@
 #Collaboration
 - id: share-board
   title: How to share the board
-  file: gif/share-board.gif
+  file: gif/share_board.gif
   preview: gif/Share board.png
   description: To invite collaborators to the board, click on the SHARE button in the top-right corner, enter the email addresses, set the access rights and click Send. You can also share the board with people outside of RealtimeBoard using a shareable link, or make any board available with a whole team in one click.
   tags:
