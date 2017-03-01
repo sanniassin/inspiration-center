@@ -8,6 +8,53 @@
     - multiple
     - objects
     - select
+- id: navigation
+  title: How to navigate on the board (minimap)
+  file: gif/Navigation.gif
+  preview: gif/Navigation.png
+  description: Toggle minimap by pressing M on your keyboard. To navigate around board, scroll your mouse wheel, use the scrolling gesture on a touchpad, or just use the minimap toolbar and adjust your zooming preferences. 
+  tags:
+    - navigate
+    - navigation
+- id: paste-stickers
+  title: How to import stickers from spreadsheet
+  file: gif/Copy cells - paste stickers.gif
+  preview: gif/Copy cells paste stickers.png
+  description: Copy and paste cells from the spreadsheet using CTRL+C / CTRL+V (CMD+C / CMD+V) shortcuts to import them to the board. 
+  tags:
+    - sticker
+    - import
+    - spreadsheet
+    - excell
+    - table
+    - csv
+- id: bulk-add-stickers
+  title: How to add bulk stickers
+  file: gif/Bulk add stickers.gif
+  preview: gif/Bulk add stickers.png
+  description: If you need to add a bunch of stickers in a row, choose the Bulk add mode in a Sticker Tool and start typing away (and don't forget to hit Enter between separate ideas). Click Done, when you are finished. 
+  tags:
+    - sticker
+- id: links
+  title: How to draw arrow connectors
+  file: gif/Links.gif
+  preview: gif/Links.png
+  description: To create a link, select the line or arrow tool in the Shapes menu, click an object and drag your cursor to the other object without releasing the mouse button. To draw a horizontal, vertical, or a 45-degree line, hold down Shift while drawing. 
+  tags:
+    - line
+    - link
+    - arrow
+    - connector
+- id: insert
+  title: How to upload files
+  file: gif/Insert.gif
+  preview: gif/Insert.png
+  description: To upload files from your computer, click the + button in the toolbox, and choose Upload or Upload via URL. This will open a dialog box, where you will be able to select the files that you wish to upload to the board. 
+  tags:
+    - upload
+    - add
+    - files
+    - insert
 #Collaboration
 - id: share-board
   title: How to share the board
@@ -48,5 +95,56 @@
   tags:
     - resolve comment
     - close comment
-    
-      
+- id: show-cursors
+  title: How to collaborate in real time (live cursors)
+  file: gif/Show cursors.gif
+  preview: gif/Show cursors.png
+  description: Click on the Show collaborators' cursors button, and quickly jump to their point of view to see where they are on the board. 
+  tags:
+    - collaborators
+    - show
+    - live
+    - real-time
+#Presentation and Export
+- id: frames
+  title: How to use frames
+  file: gif/Frames.gif
+  preview: gif/Frames.png
+  description: To create your first frame, select the Frames tool or press F on your keyboard, click +Create first frame and then resize the blue selection zone to mark the boundaries of the first slide. To switch between the frames, click on their names.
+  tags:
+    - frames
+    - artboard
+    - presentation
+- id: presentation
+  title: How to make a presentation
+  file: gif/Presentation mode.gif
+  preview: gif/Presentation mode.png
+  description: To start creating a presentation, select the Frames tool. Each frame acts like a slide. To rename a frame, double-click on its current name. To reorder frames, click and drag them around. To delete all the frames, click on the trash bin icon. Your presentation can be exported as a PDF document, or previewed in fullscreen mode.
+  tags:
+    - frames
+    - artboard
+    - presentation
+- id: export-stickers
+  title: How export stickers to spreadsheet
+  file: gif/Export stickers.gif
+  preview: gif/Export stickers.png
+  description: To export stickers to spreadsheet, put a frame around it, click on the context menu and choose Export to CSV.
+  tags:
+    - sticker
+    - export
+    - csv
+    - spreadsheet
+    - table
+    - excell
+- id: save-as-PDF
+  title: How to print the board (export as image or pdf)
+  file: gif/Save as PDF.gif
+  preview: gif/Save as PDF.png
+  description: Choose Save as image or Save as PDF in the Export this board menu. Print out the exported document.
+  tags:
+    - save
+    - export
+    - print
+    - pdf
+    - jpg
+    - jpeg   
