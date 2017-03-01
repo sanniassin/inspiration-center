@@ -1,8 +1,52 @@
+#Board basics
 - id: multiple-objects
   title: Select and move multiple objects
   file: gif/multiple-objects.gif
   preview: gif/multiple-objects.png
-  description: To select multiple objects, hold down Shift and drag the selection field across the objects or click them one by one. The selected objects can be moved, resized, locked, grouped, and aligned together.
+  description: To select multiple objects, hold down SHIFT and drag the selection field across the objects or click them one by one. The selected objects can be moved, resized, locked, grouped, and aligned together.
   tags:
     - multiple
     - objects
+    - select
+#Collaboration
+- id: share-board
+  title: How to share the board
+  file: gif/share-board.gif
+  preview: gif/share-board.png
+  description: To invite collaborators to the board, click on the SHARE button in the top-right corner, enter the email addresses, set the access rights and click Send. You can also share the board with people outside of RealtimeBoard using a shareable link, or make any board available with a whole team in one click.
+  tags:
+    - share
+    - invite
+- id: access-rights
+  title: How to change access rights
+  file: gif/access_rights.gif
+  preview: gif/access-rights.png
+  description: To edit access rights of existing collaborators on the board, click on the SHARE button in the top-right corner, and choose ADVANCED. Specify access rights for individual users by clicking on the drop-down lists which state their current access rights. 
+  tags:
+    - access rights
+    - change access
+- id: screen-sharing
+  title: How to share the screen
+  file: gif/screen_sharing.gif
+  preview: gif/screen-sharing.png
+  description: To share your screen, click the button in the bottom right corner and choose <b>Screen sharing</b>.
+  tags:
+    - screen sharing 
+    - share screen
+- id: mention
+  title: How to @mention someone
+  file: gif/mention.gif
+  preview: gif/mention.png
+  description: To mention a board participant in a comment or chat, type “@” followed by the person’s first and surname, or just pick the right person from the suggestions list that pops up when you start typing. 
+  tags:
+    - mention 
+- id: resolve-comment
+  title: How to resolve a comment thread
+  file: gif/resolve_comment.gif
+  preview: gif/resolve_comment.png
+  description: To resolve the comments, open a comment thread and click RESOLVE button in the top-left corner of the thread. If you want your resolved comments to be visible on the board, just choose <b>Show resolved</b> option in the Comment feed.
+  tags:
+    - resolve comment
+    - close comment
+    
+      

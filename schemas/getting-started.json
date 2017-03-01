@@ -16,52 +16,94 @@
       "type": "integer"
     },
     "howTo": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "guides": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "modalForms": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "videos": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "helpTopics": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "title": {
-            "type": "string"
-          },
-          "url": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
             "type": "string"
           }
         },
-        "required": [
-          "title",
-          "url"
-        ]
-      }
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "guides": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "modalForms": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "videos": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "helpTopics": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "title",
+              "url"
+            ]
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
     },
     "tutorials": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
     }
   },
   "required": [
