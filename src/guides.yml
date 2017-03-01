@@ -1,7 +1,8 @@
-- id: inspiration-center
-  title: Some pdf
-  file: pdf/inspiration-center.pdf
-  preview: pdf/inspiration-center.png
+- id: getting-started
+  title: Getting Started Guide
+  file: pdf/Getting Started Guide.pdf
+  preview: pdf/Getting-Started-Guide-preview.png
   tags:
-    - some
     - pdf
+    - guide
+    - getting started
