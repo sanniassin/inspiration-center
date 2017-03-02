@@ -41,7 +41,20 @@
         }
       ]
     },
-    "modalForms": {
+    "interfaceExplained": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "shortcuts": {
       "anyOf": [
         {
           "type": "array",
