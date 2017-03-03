@@ -19,7 +19,7 @@
 - id: paste-stickers
   title: How to import stickers from spreadsheet
   file: gif/Copy cells - paste stickers.gif
-  preview: gif/Copy cells paste stickers.png
+  preview: gif/Copy cells - paste stickers.png
   description: Copy and paste cells from the spreadsheet using <b>Ctrl+C / Ctrl+V (Cmd+C / Cmd+V)</b> shortcuts to import them to the board. 
   tags:
     - sticker
