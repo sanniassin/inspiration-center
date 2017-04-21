@@ -20,8 +20,6 @@ else
 		fi
 		
 		rsync -r -f"- */" -f"+ *" --delete $SOURCE_DIR/ $TARGET_DIR/
-		# to do // remove after client release
-		rsync -r --delete $SOURCE_DIR/img/ $TARGET_DIR/img/
 		rsync -r --delete $SOURCE_DIR/content/ $TARGET_DIR/content/
 		cd $PUBLISH_DIR
 		git config user.name "travis"
