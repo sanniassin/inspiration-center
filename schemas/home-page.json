@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "Home page schema",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "title",
+    "description",
+    "order"
+  ]
+}
