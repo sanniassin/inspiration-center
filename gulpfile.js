@@ -18,7 +18,7 @@ gulp.task('clean', function() {
 gulp.task('compile', ['clean'], function(youtube, vimeo) {
 	let videoParser = null
 	if (youtube || vimeo) {
-		let videoParser = new VideoParser({
+		videoParser = new VideoParser({
 		    youtube: {
 		        key: youtube
 		    },
