@@ -16,15 +16,18 @@ gulp.task('clean', function() {
 });
 
 gulp.task('compile', ['clean'], function(youtube, vimeo) {
-	let videoParser = new VideoParser({
-	    youtube: {
-	        key: youtube
-	    },
-	    vimeo: {
-	        access_token: vimeo
-	    },
-	    disableCache: true
-	})
+	let videoParser = null
+	if (youtube || vimeo) {
+		let videoParser = new VideoParser({
+		    youtube: {
+		        key: youtube
+		    },
+		    vimeo: {
+		        access_token: vimeo
+		    },
+		    disableCache: true
+		})
+	}
 
 	return gulp.src('./src/**/*.yml')
 		// compile YAML to JSON
