@@ -1,6 +1,6 @@
 title: 'FAQ'
 description: 'Browse through the most popular help topics.'
-thumbnail: 'img/help-feedback.svg'
+thumbnail: 'img/faq.svg'
 order: 3
 content:
   helpTopics:
