@@ -18,8 +18,8 @@
     - navigation
 - id: paste-stickers
   title: How to import stickers from spreadsheet
-  file: gif/Copy cells - paste stickers.gif
-  preview: gif/Copy cells - paste stickers.png
+  file: gif/copy-cells-paste-stickers.gif
+  preview: gif/copy-cells-paste-stickers.png
   description: Copy and paste cells from the spreadsheet using <b>Ctrl+C / Ctrl+V (Cmd+C / Cmd+V)</b> shortcuts to import them to the board. 
   tags:
     - sticker
@@ -30,8 +30,8 @@
     - csv
 - id: bulk-add-stickers
   title: How to add bulk stickers
-  file: gif/Bulk add stickers.gif
-  preview: gif/Bulk add stickers.png
+  file: gif/bulk-add-stickers.gif
+  preview: gif/bulk-add-stickers.png
   description: If you need to add a bunch of stickers in a row, choose the Bulk add mode in a Sticker Tool and start typing away (and don't forget to hit Enter between separate ideas). Click <b>Done</b>, when you are finished. 
   tags:
     - sticker
@@ -60,7 +60,7 @@
 - id: share-board
   title: How to share the board
   file: gif/share_board.gif
-  preview: gif/Share board.png
+  preview: gif/share-board.png
   description: To invite collaborators to the board, click on the <b>Share</b> button in the top-right corner, enter the email addresses, set the access rights and click <b>Send</b>. You can also share the board with people outside of RealtimeBoard using a shareable link, or make any board available with a whole team in one click.
   tags:
     - share
@@ -68,7 +68,7 @@
 - id: access-rights
   title: How to change access rights
   file: gif/access_rights.gif
-  preview: gif/Access rights.png
+  preview: gif/access-rights.png
   description: To edit access rights of existing collaborators on the board, click on the <b>Share</b> button in the top-right corner, and choose <b>Advanced</b>. Specify access rights for individual users by clicking on the drop-down lists which state their current access rights. 
   tags:
     - access rights
@@ -76,7 +76,7 @@
 - id: screen-sharing
   title: How to share the screen
   file: gif/screen_sharing.gif
-  preview: gif/Screen sharing.png
+  preview: gif/screen-sharing.png
   description: To share your screen, click the button in the bottom right corner and choose <b>Screen sharing</b>.
   tags:
     - screen sharing 
@@ -98,8 +98,8 @@
     - close comment
 - id: show-cursors
   title: How to collaborate in real time
-  file: gif/Show cursors.gif
-  preview: gif/Show cursors.png
+  file: gif/show-cursors.gif
+  preview: gif/show-cursors.png
   description: Click on the <b>Show collaborators' cursors</b> button, and quickly jump to their point of view to see where they are on the board. 
   tags:
     - collaborators
@@ -118,8 +118,8 @@
     - presentation
 - id: presentation
   title: How to make a presentation
-  file: gif/Presentation mode.gif
-  preview: gif/Presentation mode.png
+  file: gif/presentation-mode.gif
+  preview: gif/presentation-mode.png
   description: To start creating a presentation, select the Frames tool. Each frame acts like a slide. To rename a frame, double-click on its current name. To reorder frames, click and drag them around. Your presentation can be exported as a PDF document, or previewed in fullscreen mode.
   tags:
     - frames
@@ -127,8 +127,8 @@
     - presentation
 - id: export-stickers
   title: How export stickers to spreadsheet
-  file: gif/Export stickers.gif
-  preview: gif/Export stickers.png
+  file: gif/export-stickers.gif
+  preview: gif/export-stickers.png
   description: To export stickers to spreadsheet, put a frame around it, click on the context menu and choose <b>Export to CSV</b>.
   tags:
     - sticker
@@ -139,8 +139,8 @@
     - excell
 - id: save-as-PDF
   title: How to print the board
-  file: gif/Save as PDF.gif
-  preview: gif/Save as PDF.png
+  file: gif/save-as-PDF.gif
+  preview: gif/save-as-PDF.png
   description: Choose <b>Save as image</b> or <b>Save as PDF</b> in the Export board menu. Print out the exported document.
   tags:
     - save
