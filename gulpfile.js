@@ -9,6 +9,7 @@ let through = require('through2')
 let utils = require('./lib/utils')
 let camelCase = require('camelcase')
 let path = require('path')
+let frontMatter = require('front-matter')
 
 gulp.task('clean', function() {
   return gulp.src(['dist'], {read: false})
@@ -73,6 +74,21 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 				})
 		}))
 		.pipe(gulp.dest('./dist'));
+})
+
+gulp.task('markdown', ['clean'], function() {
+	return gulp.src('./src/**/*.md')
+		.pipe(through.obj((file, encoding, callback) => {
+			console.log(file.path)
+			let content = frontMatter(file.contents.toString())
+			console.dir(content.attributes)
+			console.dir(content.body)
+			// utils.validateJSON(file.path, file.contents)
+			// 	.then(() => {
+			// 		callback(null, file)
+			// 	})
+			callback(null, file)
+		}))
 })
 
 gulp.task('content', ['clean'], function() {
