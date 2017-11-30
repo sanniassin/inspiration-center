@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "4"
+  - "9"
 script: gulp --youtube $YOUTUBE_API_KEY --vimeo $VIMEO_API_KEY
 after_success: ./deploy-ghpages.sh
 env:
