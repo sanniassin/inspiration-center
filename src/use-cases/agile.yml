@@ -1,6 +1,7 @@
 title: Lean & Agile management
 description: Manage backlog, user story mapping and more.
 image: img/agile.svg
+thumbnail: img/agile.svg
 order: 3
 demoBoards:
 # Agile Process Demo Board
