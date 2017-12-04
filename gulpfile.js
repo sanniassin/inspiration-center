@@ -39,7 +39,7 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 			targetAttr = ' target="_blank"'
 		}
 		
-		return `<a href=${href}${targetAttr}>${title}</a>`
+		return `<a href=${href}${targetAttr}>${text}</a>`
 	}
 
 	let markdownFiles = gulp.src('./src/**/*.md')
