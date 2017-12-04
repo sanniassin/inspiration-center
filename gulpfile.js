@@ -32,6 +32,16 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 		})
 	}
 
+	let renderer = new marked.Renderer()
+	renderer.link = (href, title, text) => {
+		let targetAttr = ''
+		if (href.startsWith('https://')) {
+			targetAttr = ' target="_blank"'
+		}
+		
+		return `<a href=${href}${targetAttr}>${title}</a>`
+	}
+
 	let markdownFiles = gulp.src('./src/**/*.md')
 		// compile markdown
 		.pipe(through.obj((file, encoding, callback) => {
@@ -41,7 +51,7 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 				let content = frontMatter(file.contents.toString())
 				let result = {
 					...content.attributes,
-					body: marked(content.body)
+					body: marked(content.body, { renderer })
 				}
 				file.contents = new Buffer(JSON.stringify(result))
 				file.path = file.path.replace(/\.md$/, '.json')
@@ -80,23 +90,6 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 				})
 		}))
 		.pipe(gulp.dest('./dist'));
-})
-
-gulp.task('markdown', ['clean'], function() {
-	return gulp.src('./src/**/*.md')
-		.pipe(through.obj((file, encoding, callback) => {
-			if (/(readme|README).md$/.test(file.path)) {
-				callback()
-			} else {	
-				let content = frontMatter(file.contents.toString())
-				let result = {
-					...content.attributes,
-					body: marked(content.body)
-				}
-				file.contents = new Buffer(JSON.stringify(result))
-				callback(null, file)
-			}
-		}))
 })
 
 gulp.task('content', ['clean'], function() {
