@@ -149,12 +149,27 @@
     - pdf
     - jpg
     - jpeg   
-#Sticky notes colors and tags
+#Sticky note colors and tags
 - id: sticky-notes-colors-and-tags
-  title: Sticky notes colors and tags
+  title: How change sticker's colour
   file: gif/sticky-note-colors-and-tags.gif
   preview: gif/sticky-note-colors-and-tags.gif
-  description: Sticky notes colors and tags
   tags:
-    - sticky
-    - notes
+    - sticker
+    - tag
+#Sticky note emojis and tags
+- id: sticky-notes-emojis-and-tags
+  title: How to add emoji and tags on stickers
+  file: gif/sticky-note-emojis-and-tags.gif
+  preview: gif/sticky-note-emojis-and-tags.gif
+  tags:
+    - sticker
+    - tag
+    - emoji
+#Confluence plugin
+- id: confluence-plugin
+  title: How to use confluence plugin
+  file: gif/confluence-plugin.gif
+  preview: gif/confluence-plugin.gif
+  tags:
+    - confluence

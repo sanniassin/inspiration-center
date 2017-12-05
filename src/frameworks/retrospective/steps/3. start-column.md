@@ -1,8 +1,0 @@
----
-title: Add ideas to Start column
-order: 3
----
-
-Share your thoughts on how to start improving the  workflow.
-
-[Sticky notes colors and tags](howTo:sticky-notes-colors-and-tags)
