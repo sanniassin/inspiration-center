@@ -1,8 +1,0 @@
----
-title: Invite participants
-order: 2
----
-
-Invite your team to the board to run a retrospective.
-
-[How to share the board](howTo:share-board)
