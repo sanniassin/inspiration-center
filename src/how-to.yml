@@ -149,3 +149,12 @@
     - pdf
     - jpg
     - jpeg   
+#Sticky notes colors and tags
+id: sticky-notes-colors-and-tags
+title: Sticky notes colors and tags
+fild: gif/sticky-note-colors-and-tags.gif
+preview: gif/sticky-note-colors-and-tags.gif
+description: Sticky notes colors and tags
+tags:
+    - sticky
+    - notes

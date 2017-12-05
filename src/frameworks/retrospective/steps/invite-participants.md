@@ -3,6 +3,6 @@ title: Invite participants
 order: 2
 ---
 
-Share your board with the team you want to run retrospective with.
+Invite your team to the board to run a retrospective.
 
 [How to share the board](howTo:share-board)
