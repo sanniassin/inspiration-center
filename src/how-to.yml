@@ -152,7 +152,7 @@
 #Sticky notes colors and tags
 - id: sticky-notes-colors-and-tags
   title: Sticky notes colors and tags
-  field: gif/sticky-note-colors-and-tags.gif
+  file: gif/sticky-note-colors-and-tags.gif
   preview: gif/sticky-note-colors-and-tags.gif
   description: Sticky notes colors and tags
   tags:
