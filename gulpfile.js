@@ -67,12 +67,12 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 			space: 2
 		}))
 		// validate JSON schemas
-		// .pipe(through.obj((file, encoding, callback) => {
-		// 	utils.validateJSON(file.path, file.contents)
-		// 		.then(() => {
-		// 			callback(null, file)
-		// 		})
-		// }))
+		.pipe(through.obj((file, encoding, callback) => {
+			utils.validateJSON(file.path, file.contents)
+				.then(() => {
+					callback(null, file)
+				})
+		}))
 
 	merge2([markdownFiles, yamlFiles])
 		// concat JSON files in to one
