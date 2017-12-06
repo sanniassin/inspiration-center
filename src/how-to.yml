@@ -153,7 +153,8 @@
 - id: sticky-note-colors-and-tags
   title: How change sticker's colour
   file: gif/sticky-note-colors-and-tags.gif
-  preview: gif/sticky-note-colors-and-tags.gif
+  preview: gif/sticky-note-colors-and-tags.png
+  description: Click on sticker and choose the colour or set up tags in object menu.
   tags:
     - sticker
     - tag
@@ -161,7 +162,8 @@
 - id: sticky-note-emojis-and-tags
   title: How to add emoji and tags on stickers
   file: gif/sticky-note-emojis-and-tags.gif
-  preview: gif/sticky-note-emojis-and-tags.gif
+  preview: gif/sticky-note-emojis-and-tags.png
+  description: Click on sticker and add emoji or set up tags in object menu.
   tags:
     - sticker
     - tag
@@ -170,6 +172,6 @@
 - id: confluence-plugin
   title: How to use confluence plugin
   file: gif/confluence-plugin.gif
-  preview: gif/confluence-plugin.gif
+  preview: gif/confluence-plugin.png
   tags:
     - confluence
