@@ -59,6 +59,13 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 				callback(null, file)
 			}
 		}))
+		// validate JSON schemas
+		.pipe(through.obj((file, encoding, callback) => {
+			utils.validateJSON(file.path, file.contents)
+				.then(() => {
+					callback(null, file)
+				})
+		}))
 
 	let yamlFiles = gulp.src('./src/**/*.yml')
 		// compile YAML to JSON
