@@ -175,3 +175,11 @@
   preview: gif/confluence-plugin.png
   tags:
     - confluence
+- id: double-click-to-create-an-object
+  title: How to create an object double click
+  file: gif/double-click-to-create-an-object.gif.gif
+  preview: gif/double-click-to-create-an-object.gif.gif
+  description: How to create an object double click.
+  tags:
+    - objects
+    - sticker
