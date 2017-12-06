@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
     <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-        <path stroke="#69F" d="M6 11h8v8H6z"/>
         <path stroke="#FBCF47" d="M6 11h8v8H6z"/>
-        <path stroke="#EC8EAD" d="M6 24h8v8H6zM21 11h8v8h-8z"/>
-        <path stroke="#69F" d="M21 24h8v8h-8zM36 11h8v8h-8z"/>
-        <path stroke="#7CC576" d="M21 37h8v8h-8zM6 6h8"/>
+        <path stroke="#69F" d="M6 24h8v8H6z"/>
+        <path stroke="#EC8EAD" d="M21 11h8v8h-8z"/>
+        <path stroke="#7CC576" d="M21 24h8v8h-8z"/>
+        <path stroke="#69F" d="M36 11h8v8h-8z"/>
+        <path stroke="#FBCF47" d="M21 37h8v8h-8z"/>
+        <path stroke="#7CC576" d="M6 6h8"/>
         <path stroke="#69F" d="M21 6h8"/>
         <path stroke="#EC8EAD" d="M36 6h8"/>
     </g>
