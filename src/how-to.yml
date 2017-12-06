@@ -150,7 +150,7 @@
     - jpg
     - jpeg   
 #Sticky note colors and tags
-- id: sticky-notes-colors-and-tags
+- id: sticky-note-colors-and-tags
   title: How change sticker's colour
   file: gif/sticky-note-colors-and-tags.gif
   preview: gif/sticky-note-colors-and-tags.gif
@@ -158,7 +158,7 @@
     - sticker
     - tag
 #Sticky note emojis and tags
-- id: sticky-notes-emojis-and-tags
+- id: sticky-note-emojis-and-tags
   title: How to add emoji and tags on stickers
   file: gif/sticky-note-emojis-and-tags.gif
   preview: gif/sticky-note-emojis-and-tags.gif
