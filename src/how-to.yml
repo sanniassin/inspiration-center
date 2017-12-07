@@ -180,7 +180,7 @@
   file: gif/double-click-to-create-an-object.gif
   preview: gif/double-click-to-create-an-object.gif
   description: Use double click to add new text or create an object.
-  tags:
+  tags: []
 - id: sticker-to-jira-card
   title: Convert a sticker into a Jira card with corresponding issue
   file: gif/sticker-to-jira-card.gif
