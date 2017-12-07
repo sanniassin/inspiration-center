@@ -176,17 +176,15 @@
   tags:
     - confluence
 - id: double-click-to-create-an-object
-  title: How to create an object double click
+  title: How to create an object
   file: gif/double-click-to-create-an-object.gif
   preview: gif/double-click-to-create-an-object.gif
-  description: How to create an object double click.
+  description: Use double click to add new text or create an object.
   tags:
-    - objects
-    - sticker
 - id: sticker-to-jira-card
   title: Convert a sticker into a Jira card with corresponding issue
   file: gif/sticker-to-jira-card.gif
-  preview: gif/sticker-to-jira-card.gif
+  preview: gif/sticker-to-jira-card.png
   description: Any sticker from a user story map, backlog or brainstorm session can become a task just in a few clicks. Open sticker and click Jira logo - that's it! Once you turn a sticker into a card the issue will be available in Jira.
   tags:
     - jira
