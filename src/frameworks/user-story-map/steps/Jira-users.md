@@ -1,0 +1,8 @@
+---
+title: Bonus tips for Jira users 
+order: 9
+---
+
+Using JIRA? Turn stickers into JIRA issues right on the board to speed up your work. Learn more. [Learn more](https://help.realtimeboard.com/support/solutions/articles/11000029984-jira-cards)
+
+[Jira](howTo:sticker-to-jira-card)
