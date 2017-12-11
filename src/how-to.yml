@@ -170,7 +170,7 @@
     - emoji
 #Confluence plugin
 - id: confluence-plugin
-  title: How to use confluence plugin
+  title: How to use Confluence plugin
   file: gif/confluence-plugin.gif
   preview: gif/confluence-plugin.png
   tags:
