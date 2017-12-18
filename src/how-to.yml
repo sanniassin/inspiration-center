@@ -188,3 +188,8 @@
   description: Any sticker from a user story map, backlog or brainstorm session can become a task just in a few clicks. Open sticker and click Jira logo - that's it! Once you turn a sticker into a card the issue will be available in Jira.
   tags:
     - jira
+- id: usm-step-4
+  title: User story map step 4
+  file: gif/USM-four-step.gif
+  preview: gif/USM-four-step.gif
+  tags: []
