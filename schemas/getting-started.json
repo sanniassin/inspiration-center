@@ -9,7 +9,7 @@
     "description": {
       "type": "string"
     },
-    "image": {
+    "thumbnail": {
       "type": "string"
     },
     "order": {

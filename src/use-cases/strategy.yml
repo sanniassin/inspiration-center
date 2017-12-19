@@ -1,6 +1,7 @@
 title: Business Analysis & Strategy
 description: Work on the strategy with a list of canvases.
 image: img/roadmaps.svg
+thumbnail: img/roadmaps.svg
 order: 4
 demoBoards:
   # Business Model Demo Board

@@ -1,6 +1,7 @@
 title: Export & Presentation
 description: Share your boards with the outside world.
 image: img/export.svg
+thumbnail: img/export.svg
 order: 3
 howTo:
   - frames
