@@ -197,11 +197,11 @@
   title: Add ideas to Continue column
   file: gif/Retro-step-five-1.gif
   preview: gif/Retro-step-five-1.gif
-  description: Point out successful activities that the team should keep doing. Vote with emoji to identify popular ideas.
+  description: Point out successful activities that the team should keep doing. <b>Tip:</b> Vote with emoji to identify popular ideas.
   tags: []
 - id: Retro-step-three-1
   title: Add ideas to Start column
   file: gif/Retro-step-three-1.gif
   preview: gif/Retro-step-three-1.gif
-  description: Share your thoughts on how to start improving the  workflow. Use different sticker colours or tags for different users.
+  description: Share your thoughts on how to start improving the  workflow. <b>Tip:</b> Use different sticker colours or tags for different users.
   tags: []
