@@ -205,3 +205,9 @@
   preview: gif/Retro-step-three-1.gif
   description: Share your thoughts on how to start improving the  workflow. <b>Tip:</b> Use different sticker colours or tags for different users.
   tags: []
+- id: USM-step-three-1
+  title: Identify your user persona
+  file: gif/USM-step-three-1.gif
+  preview: gif/USM-step-three-1.gif
+  description: Describe your user persona above the user story map. <b>Tip:</b> Double click to add text on the canvas.
+  tags: []
