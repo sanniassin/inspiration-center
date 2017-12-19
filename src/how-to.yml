@@ -229,3 +229,15 @@
   preview: gif/Kanban-step-6.gif
   description: Move stickers to track the progress like on a regular whiteboard. <br><b>Tip:</b> Hold Shift to select multiple objects.
   tags: []
+- id: USM-step-3
+  title: Identify your user persona
+  file: gif/USM-step-3.gif
+  preview: gif/USM-step-3.gif
+  description: Describe your user persona above the user story map. <br> <b>Tip:</b> Double click to add text on the canvas.
+  tags: []
+ - id: USM-step-4
+  title: Create user activities123
+  file: gif/USM-step-4.gif
+  preview: gif/USM-step-4.gif
+  description: Write down the user activities. <br> <b>Tip:</b> You can choose another sticky colour in the context menu.
+  tags: []
