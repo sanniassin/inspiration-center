@@ -212,3 +212,10 @@
   preview: gif/USM-step-three-1.gif
   description: Describe your user persona above the user story map. <b>Tip:</b> Double click to add text on the canvas.
   tags: []
+- id: Kanban-step-3
+  title: Customize your workflow
+  file: gif/Kanban-step-3.gif
+  preview: gif/Kanban-step-3.gif
+  description: <p> SChange block names if you have other team roles in your project. </p> 
+  <p> <b>Tip:</b> Double click to add text or new widgets.</p>
+  tags: []
