@@ -200,8 +200,8 @@
   description: retro-five.
   tags: []
 - id: Retro-step-three
-  title: "11"
+  title: ''
   file: gif/Retro-step-three.gif
   preview: gif/Retro-step-three.gif
-  description: "11".
+  description: ''.
   tags: []
