@@ -215,20 +215,17 @@
   title: Customize your workflow
   file: gif/Kanban-step-3.gif
   preview: gif/Kanban-step-3.gif
-  description: <p> SChange block names if you have other team roles in your project. </p> 
-  <p> <b>Tip:</b> Double click to add text or new widgets.</p>
+  description: <p> Change block names if you have other team roles in your project. </p> <p> <b>Tip:</b> Double click to add text or new widgets.</p>
   tags: []
 - id: Kanban-step-5
   title: Distribute tasks
   file: gif/Kanban-step-5.gif
   preview: gif/Kanban-step-5.gif
-  description: <p> Take advantage of sticker colors and tags to mark different assignees. </p> 
-  <p> <b>Tip:</b> Use emoji to estimate the task complexity.</p>
+  description: <p> Take advantage of sticker colors and tags to mark different assignees. </p> <p> <b>Tip:</b> Use emoji to estimate the task complexity.</p>
   tags: []
 - id: Kanban-step-6
   title: Reflect your progress
   file: gif/Kanban-step-6.gif
   preview: gif/Kanban-step-6.gif
-  description: <p> Move stickers to track the progress like on a regular whiteboard. </p> 
-  <p> <b>Tip:</b> Hold Shift to select multiple objects.</p>
+  description: <p> Move stickers to track the progress like on a regular whiteboard.</p> <p><b>Tip:</b> Hold Shift to select multiple objects.</p>
   tags: []
