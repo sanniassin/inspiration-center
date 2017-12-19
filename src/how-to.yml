@@ -240,5 +240,5 @@
   title: Prioritize the stories
   file: gif/USM-step-7.gif
   preview: gif/USM-step-7.gif
-  description: Select the stories you can accomplish for Release 1. Put the other stories below in Release 2 and 3. <br> <b>Tip:</b> Use tags to add assignees and emojis to estimate the task complexity.
+  description: Select the stories you can accomplish for Release 1. <br> Put the other stories below in Release 2 and 3. <br> <b>Tip:</b> Use tags to add assignees and emojis to estimate the task complexity.
   tags: []
