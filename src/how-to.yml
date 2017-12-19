@@ -197,35 +197,35 @@
   title: Add ideas to Continue column
   file: gif/Retro-step-five-1.gif
   preview: gif/Retro-step-five-1.gif
-  description: Point out successful activities that the team should keep doing. <b>Tip:</b> Vote with emoji to identify popular ideas.
+  description: <br>Point out successful activities that the team should keep doing. </br> <br><b>Tip:</b> Vote with emoji to identify popular ideas.</br>
   tags: []
 - id: Retro-step-three-1
   title: Add ideas to Start column
   file: gif/Retro-step-three-1.gif
   preview: gif/Retro-step-three-1.gif
-  description: <p> Share your thoughts on how to start improving the  workflow123. </p> <p> <b>Tip:</b> Use different sticker colours or tags for different users. </p>
+  description: <br> Share your thoughts on how to start improving the  workflow123. </br> <br> <b>Tip:</b> Use different sticker colours or tags for different users. </br>
   tags: []
 - id: USM-step-three-1
   title: Identify your user persona
   file: gif/USM-step-three-1.gif
   preview: gif/USM-step-three-1.gif
-  description: Describe your user persona above the user story map. <b>Tip:</b> Double click to add text on the canvas.
+  description: <br>Describe your user persona above the user story map. </br> <br><b>Tip:</b> Double click to add text on the canvas.</br>
   tags: []
 - id: Kanban-step-3
   title: Customize your workflow
   file: gif/Kanban-step-3.gif
   preview: gif/Kanban-step-3.gif
-  description: <p> Change block names if you have other team roles in your project. </p> <p> <b>Tip:</b> Double click to add text or new widgets.</p>
+  description: <br> Change block names if you have other team roles in your project. </br> <br> <b>Tip:</b> Double click to add text or new widgets.</br>
   tags: []
 - id: Kanban-step-5
   title: Distribute tasks
   file: gif/Kanban-step-5.gif
   preview: gif/Kanban-step-5.gif
-  description: <p> Take advantage of sticker colors and tags to mark different assignees. </p> <p> <b>Tip:</b> Use emoji to estimate the task complexity.</p>
+  description: <br> Take advantage of sticker colors and tags to mark different assignees. </br> <br> <b>Tip:</b> Use emoji to estimate the task complexity.</br>
   tags: []
 - id: Kanban-step-6
   title: Reflect your progress
   file: gif/Kanban-step-6.gif
   preview: gif/Kanban-step-6.gif
-  description: <p> Move stickers to track the progress like on a regular whiteboard.</p> <p><b>Tip:</b> Hold Shift to select multiple objects.</p>
+  description: <br> Move stickers to track the progress like on a regular whiteboard.</br> <br><b>Tip:</b> Hold Shift to select multiple objects.</br>
   tags: []
