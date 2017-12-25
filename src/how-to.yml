@@ -248,3 +248,9 @@
   preview: gif/Convert-sticky-note-to-a-card.gif
   description: Using JIRA? Turn stickers into JIRA issues right on the board to speed up your work.
   tags: []
+- id: Retro-step-4
+  title: Add ideas to Stop column
+  file: gif/Retro-step-4.gif
+  preview: gif/Retro-step-4.gif
+  description: Suggest what your team should stop doing. <br> <b>Tip:</b> You can use bulk mode to speed up the ideation process.
+  tags: []
