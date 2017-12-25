@@ -230,6 +230,12 @@
   preview: gif/Kanban-step-7.gif
   description: Add comments and ask questions to discuss tasks. <br> <b>Tip:</b> Use @mentions to make your teammate put attention to the comment.
   tags: []
+- id: Kanban-step-8
+  title: Bonus tip for Jira users 
+  file: gif/Kanban-step-8.gif
+  preview: gif/Kanban-step-8.gif
+  description: Using JIRA? Turn stickers into JIRA issues right on the board to speed up your work.
+  tags: []
 - id: USM-step-3
   title: Identify your user persona
   file: gif/USM-step-3.gif
