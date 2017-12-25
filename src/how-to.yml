@@ -242,6 +242,12 @@
   preview: gif/USM-step-4.gif
   description: Write down the user activities. <br> <b>Tip:</b> You can choose another sticky colour in the context menu.
   tags: []
+- id: USM-step-5
+  title: Add user tasks
+  file: gif/USM-step-5.gif
+  preview: gif/USM-step-5.gif
+  description: Express your thoughts on persona tasks using stickies below the user activities. <br> <b>Tip:</b> Check the Demo boards with the ready-made templates.
+  tags: []
 - id: USM-step-6
   title: Point out user stories
   file: gif/USM-step-6.gif
