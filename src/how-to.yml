@@ -254,3 +254,9 @@
   preview: gif/Retro-step-4.gif
   description: Suggest what your team should stop doing. <br> <b>Tip:</b> You can use bulk mode to speed up the ideation process.
   tags: []
+- id: Retro-step-6
+  title: Turn ideas into Actions
+  file: gif/Retro-step-6.gif
+  preview: gif/Retro-step-6.gif
+  description: Create an action item list from your Retrospective session. <br> <b>Tip:</b> Embed this board as a interactive document into any Confluence page. 
+  tags: []
