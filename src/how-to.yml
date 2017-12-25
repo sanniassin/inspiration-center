@@ -222,7 +222,7 @@
   title: Reflect your progress
   file: gif/Kanban-step-6.gif
   preview: gif/Kanban-step-6.gif
-  description: Move stickers to track the progress like on a regular whiteboard. <br><b>Tip:</b> Hold Shift to select multiple objects.
+  description: Move stickers to track the progress like on a regular whiteboard. Set work in progress limit (e.g. 2 or 3 tasks). <br><b>Tip:</b> Hold Shift to select multiple objects.
   tags: []
 - id: Kanban-step-7
   title: Enrich your workflow
@@ -279,8 +279,8 @@
   description: Suggest what your team should stop doing. <br> <b>Tip:</b> You can use bulk mode to speed up the ideation process.
   tags: []
 - id: Retro-step-6
-  title: Turn ideas into Actions
+  title: Bonus tip for Jira users
   file: gif/Retro-step-6.gif
   preview: gif/Retro-step-6.gif
-  description: Create an action item list from your Retrospective session. <br> <b>Tip:</b> Embed this board as a interactive document into any Confluence page. 
+  description: Create an action item list from your Retrospective session. [Learn more](https://help.realtimeboard.com/support/solutions/articles/11000036073-realtimeboard-plugin-for-confluence). 
   tags: []
