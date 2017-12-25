@@ -206,6 +206,12 @@
   preview: gif/Kanban-step-3.gif
   description: Change block names if you have other team roles in your project.  <br> <b>Tip:</b> Double click to add text or new widgets.
   tags: []
+- id: Kanban-step-4
+  title: Create to-do list
+  file: gif/Kanban-step-4.gif
+  preview: gif/Kanban-step-4.gif
+  description: Add tasks that you have in your backlog. <br> <b>Tip:</b> Use bulk mode to speed up the process.
+  tags: []
 - id: Kanban-step-5
   title: Distribute tasks
   file: gif/Kanban-step-5.gif
