@@ -218,6 +218,12 @@
   preview: gif/Kanban-step-6.gif
   description: Move stickers to track the progress like on a regular whiteboard. <br><b>Tip:</b> Hold Shift to select multiple objects.
   tags: []
+- id: Kanban-step-7
+  title: Enrich your workflow
+  file: gif/Kanban-step-7.gif
+  preview: gif/Kanban-step-7.gif
+  description: Add comments and ask questions to discuss tasks. <br> <b>Tip:</b> Use @mentions to make your teammate put attention to the comment.
+  tags: []
 - id: USM-step-3
   title: Identify your user persona
   file: gif/USM-step-3.gif
