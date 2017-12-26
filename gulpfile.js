@@ -51,7 +51,7 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 				let content = frontMatter(file.contents.toString())
 				let result = {
 					...content.attributes,
-					body: marked(content.body, { renderer })
+					body: marked(content.body, { renderer, breaks: true })
 				}
 				file.contents = new Buffer(JSON.stringify(result))
 				file.path = file.path.replace(/\.md$/, '.json')
