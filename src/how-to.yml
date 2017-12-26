@@ -151,10 +151,10 @@
     - jpeg   
 #Sticky note colors and tags
 - id: sticky-note-colors-and-tags
-  title: How change sticker's colour
+  title: How change sticker's color
   file: gif/sticky-note-colors-and-tags.gif
   preview: gif/sticky-note-colors-and-tags.png
-  description: Click on sticker and choose the colour or set up tags in object menu.
+  description: Click on sticker and choose the color or set up tags in object menu.
   tags:
     - sticker
     - tag
@@ -198,7 +198,7 @@
   title: Add ideas to Start column
   file: gif/Retro-step-three-1.gif
   preview: gif/Retro-step-three-1.gif
-  description: Share your thoughts on how to start improving the  workflow. <br> <b>Tip:</b> Use different sticker colours or tags for different users.
+  description: Share your thoughts on how to start improving the  workflow. <br> <b>Tip:</b> Use different sticker colors or tags for each user.
   tags: []
 - id: Kanban-step-3
   title: Customize your workflow
@@ -246,7 +246,7 @@
   title: Create user activities
   file: gif/USM-step-4.gif
   preview: gif/USM-step-4.gif
-  description: Write down the user activities. <br> <b>Tip:</b> You can choose another sticky colour in the context menu.
+  description: Write down the user activities. <br> <b>Tip:</b> You can choose another sticky color in the context menu.
   tags: []
 - id: USM-step-5
   title: Add user tasks
