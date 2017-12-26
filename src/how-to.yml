@@ -222,10 +222,10 @@
   title: Reflect your progress
   file: gif/Kanban-step-6.gif
   preview: gif/Kanban-step-6.gif
-  description: Move stickers to track the progress like on a regular whiteboard. Set work in progress limit (e.g. 2 or 3 tasks). <br><b>Tip:</b> Hold Shift to select multiple objects.
+  description: Move stickers to track the progress like on a regular whiteboard. Set work in progress limit. <br><b>Tip:</b> Hold Shift to select multiple objects.
   tags: []
 - id: Kanban-step-7
-  title: Enrich your workflow
+  title: Discuss issues with your team
   file: gif/Kanban-step-7.gif
   preview: gif/Kanban-step-7.gif
   description: Add comments and ask questions to discuss tasks. <br> <b>Tip:</b> Use @mentions to make your teammate put attention to the comment.
