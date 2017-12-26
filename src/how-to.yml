@@ -279,8 +279,8 @@
   description: Suggest what your team should stop doing. <br> <b>Tip:</b> You can use bulk mode to speed up the ideation process.
   tags: []
 - id: Retro-step-6
-  title: Bonus tip for Jira users
+  title: Turn ideas into Actions
   file: gif/Retro-step-6.gif
   preview: gif/Retro-step-6.gif
-  description: Using JIRA? Turn stickers into JIRA issues right on the board to speed up your work.  
+  description: Find out popular ideas that your team generate and create to do list. <br> <b> Tip:</b>Turn stickies into JIRA issues right on the board to speed up your work. 
   tags: []
