@@ -258,7 +258,7 @@
   title: Point out user stories
   file: gif/USM-step-6.gif
   preview: gif/USM-step-6.gif
-  description: Add user stories below user tasks. <br> <b>Tip:</b> Hold Shift to select multiple objects.
+  description: Add user stories below user tasks. <br> <b>Tip:</b> Use tags to add assignees and emojis to estimate the task complexity.
   tags: []
 - id: USM-step-7
   title: Prioritize the stories
