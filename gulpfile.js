@@ -9,6 +9,9 @@ let through = require('through2')
 let utils = require('./lib/utils')
 let camelCase = require('camelcase')
 let path = require('path')
+let frontMatter = require('front-matter')
+let marked = require('marked');
+const merge2 = require('merge2')
 
 gulp.task('clean', function() {
   return gulp.src(['dist'], {read: false})
@@ -29,7 +32,42 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 		})
 	}
 
-	return gulp.src('./src/**/*.yml')
+	let renderer = new marked.Renderer()
+	renderer.link = (href, title, text) => {
+		let targetAttr = ''
+		if (href.startsWith('https://')) {
+			targetAttr = ' target="_blank"'
+		}
+		
+		return `<a href=${href}${targetAttr}>${text}</a>`
+	}
+
+	let markdownFiles = gulp.src('./src/**/*.md')
+		// compile markdown
+		.pipe(through.obj((file, encoding, callback) => {
+			if (/(readme|README).md$/.test(file.path)) {
+				callback()
+			} else {	
+				let content = frontMatter(file.contents.toString())
+				let result = {
+					...content.attributes,
+					body: marked(content.body, { renderer, breaks: true })
+				}
+				file.contents = new Buffer(JSON.stringify(result))
+				file.path = file.path.replace(/\.md$/, '.json')
+				path.basename(file.path)
+				callback(null, file)
+			}
+		}))
+		// validate JSON schemas
+		.pipe(through.obj((file, encoding, callback) => {
+			utils.validateJSON(file.path, file.contents)
+				.then(() => {
+					callback(null, file)
+				})
+		}))
+
+	let yamlFiles = gulp.src('./src/**/*.yml')
 		// compile YAML to JSON
 		.pipe(yaml({
 			safe: true,
@@ -42,25 +80,11 @@ gulp.task('compile', ['clean'], function(youtube, vimeo) {
 					callback(null, file)
 				})
 		}))
+
+	merge2([markdownFiles, yamlFiles])
 		// concat JSON files in to one
-		.pipe(jsoncombine('config.json', (data, meta) => {
-			let result = {};
-			for (let key in data) {
-				if (~key.indexOf('/')) {
-					let collectionName = camelCase(path.dirname(key))
-					let fileName = camelCase(path.basename(key, '.json'))
-					let itemData = data[key]
-					itemData.id = fileName
-					let collection = result[collectionName] || (result[collectionName] = [])
-					collection.push(itemData)
-				} else {
-					result[camelCase(key)] = data[key]
-				}
-			}
-			return new Buffer(JSON.stringify(result));
-		}))
+		.pipe(jsoncombine('config.json', utils.combineByPath))
 		// get video meta
-		// todo // throw errors
 		.pipe(through.obj((file, encoding, callback) => {
 			utils.prepareData(JSON.parse(file.contents.toString()), videoParser)
 				.then((result) => {

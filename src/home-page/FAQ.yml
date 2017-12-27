@@ -1,7 +1,7 @@
 title: 'FAQ'
 description: 'Browse through the most popular topics.'
 thumbnail: 'img/faq.svg'
-order: 5
+order: 6
 content:
   helpTopics:
     - title: How to invite collaborators

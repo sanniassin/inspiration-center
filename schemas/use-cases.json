@@ -66,6 +66,7 @@
   "required": [
     "title",
     "description",
-    "order"
+    "order",
+    "thumbnail"
   ]
 }

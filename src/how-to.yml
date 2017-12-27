@@ -149,3 +149,138 @@
     - pdf
     - jpg
     - jpeg   
+#Sticky note colors and tags
+- id: sticky-note-colors-and-tags
+  title: How change sticker's color
+  file: gif/sticky-note-colors-and-tags.gif
+  preview: gif/sticky-note-colors-and-tags.png
+  description: Click on sticker and choose the color or set up tags in object menu.
+  tags:
+    - sticker
+    - tag
+#Sticky note emojis and tags
+- id: sticky-note-emojis-and-tags
+  title: How to add emoji and tags on stickers
+  file: gif/sticky-note-emojis-and-tags.gif
+  preview: gif/sticky-note-emojis-and-tags.png
+  description: Click on sticker and add emoji or set up tags in object menu.
+  tags:
+    - sticker
+    - tag
+    - emoji
+#Confluence plugin
+- id: confluence-plugin
+  title: How to use Confluence plugin
+  file: gif/confluence-plugin.gif
+  preview: gif/confluence-plugin.png
+  tags:
+    - confluence
+- id: double-click-to-create-an-object
+  title: How to create an object
+  file: gif/double-click-to-create-an-object.gif
+  preview: gif/double-click-to-create-an-object.gif
+  description: Use double click to add new text or create an object.
+  tags: []
+- id: sticker-to-jira-card
+  title: Convert a sticker into a Jira card with corresponding issue
+  file: gif/sticker-to-jira-card.gif
+  preview: gif/sticker-to-jira-card.png
+  description: Any sticker from a user story map, backlog or brainstorm session can become a task just in a few clicks. Open sticker and click Jira logo - that's it! Once you turn a sticker into a card the issue will be available in Jira.
+  tags:
+    - jira
+- id: Retro-step-five-1
+  title: Add ideas to Continue column
+  file: gif/Retro-step-five-1.gif
+  preview: gif/Retro-step-five-1.gif
+  description: Point out successful activities that the team should keep doing. <br> <b>Tip:</b> Vote with emoji to identify popular ideas.
+  tags: []
+- id: Retro-step-three-1
+  title: Add ideas to Start column
+  file: gif/Retro-step-three-1.gif
+  preview: gif/Retro-step-three-1.gif
+  description: Share your thoughts on how to start improving the  workflow. <br> <b>Tip:</b> Use different sticker colors or tags for each user.
+  tags: []
+- id: Kanban-step-3
+  title: Customize your workflow
+  file: gif/Kanban-step-3.gif
+  preview: gif/Kanban-step-3.gif
+  description: Change block names if you have other team roles in your project.  <br> <b>Tip:</b> Double click to add text or new widgets.
+  tags: []
+- id: Kanban-step-4
+  title: Create to-do list
+  file: gif/Kanban-step-4.gif
+  preview: gif/Kanban-step-4.gif
+  description: Add tasks that you have in your backlog. <br> <b>Tip:</b> Use bulk mode to speed up the process.
+  tags: []
+- id: Kanban-step-5
+  title: Distribute tasks
+  file: gif/Kanban-step-5.gif
+  preview: gif/Kanban-step-5.gif
+  description: Take advantage of sticker colors and tags to mark different assignees. <br> <b>Tip:</b> Use emoji to estimate the task complexity.
+  tags: []
+- id: Kanban-step-6
+  title: Reflect your progress
+  file: gif/Kanban-step-6.gif
+  preview: gif/Kanban-step-6.gif
+  description: Move stickers to track the progress like on a regular whiteboard. Set work in progress limit. <br><b>Tip:</b> Hold Shift to select multiple objects.
+  tags: []
+- id: Kanban-step-7
+  title: Discuss issues with your team
+  file: gif/Kanban-step-7.gif
+  preview: gif/Kanban-step-7.gif
+  description: Add comments and ask questions to discuss tasks. <br> <b>Tip:</b> Use @mentions to make your teammate put attention to the comment.
+  tags: []
+- id: Kanban-step-8
+  title: Bonus tip for Jira users 
+  file: gif/Kanban-step-8.gif
+  preview: gif/Kanban-step-8.gif
+  description: Using JIRA? Turn stickers into JIRA issues right on the board to speed up your work.
+  tags: []
+- id: USM-step-3
+  title: Identify your user persona
+  file: gif/USM-step-3.gif
+  preview: gif/USM-step-3.gif
+  description: Describe your user persona above the user story map. <br> <b>Tip:</b> Double click to add text on the canvas.
+  tags: []
+- id: USM-step-4
+  title: Create user activities
+  file: gif/USM-step-4.gif
+  preview: gif/USM-step-4.gif
+  description: Write down the user activities. <br> <b>Tip:</b> You can choose another sticky color in the context menu.
+  tags: []
+- id: USM-step-5
+  title: Add user tasks
+  file: gif/USM-step-5.gif
+  preview: gif/USM-step-5.gif
+  description: Express your thoughts on persona tasks using stickies below the user activities. <br> <b>Tip:</b> Check the Demo boards with the ready-made templates.
+  tags: []
+- id: USM-step-6
+  title: Point out user stories
+  file: gif/USM-step-6.gif
+  preview: gif/USM-step-6.gif
+  description: Add user stories below user tasks. <br> <b>Tip:</b> Use tags to add assignees and emojis to estimate the task complexity.
+  tags: []
+- id: USM-step-7
+  title: Prioritize the stories
+  file: gif/USM-step-7.gif
+  preview: gif/USM-step-7.gif
+  description: Select the stories you can accomplish for Release 1. <br> Put the other stories below in Release 2 and 3. <br> <b>Tip:</b> Hold Shift to select multiple objects.
+  tags: []
+- id: Convert-sticky-note-to-a-card
+  title: Bonus tip for Jira users
+  file: gif/Convert-sticky-note-to-a-card.gif
+  preview: gif/Convert-sticky-note-to-a-card.gif
+  description: Using JIRA? Turn stickers into JIRA issues right on the board to speed up your work.
+  tags: []
+- id: Retro-step-4
+  title: Add ideas to Stop column
+  file: gif/Retro-step-4.gif
+  preview: gif/Retro-step-4.gif
+  description: Suggest what your team should stop doing. <br> <b>Tip:</b> You can use bulk mode to speed up the ideation process.
+  tags: []
+- id: Retro-step-6
+  title: Turn ideas into Actions
+  file: gif/Retro-step-6.gif
+  preview: gif/Retro-step-6.gif
+  description: Find out popular ideas that your team generate and create to do list. <br> <b> Tip:</b> Turn stickies into JIRA issues right on the board to speed up your work. 
+  tags: []
