@@ -126,7 +126,7 @@
     - artboard
     - presentation
 - id: export-stickers
-  title: How export stickers to spreadsheet
+  title: How to export stickers to spreadsheet
   file: gif/export-stickers.gif
   preview: gif/export-stickers.png
   description: To export stickers to spreadsheet, put a frame around it, click on the context menu and choose <b>Export to CSV</b>.
