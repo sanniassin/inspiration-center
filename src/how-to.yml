@@ -61,7 +61,7 @@
   title: How to share the board
   file: gif/share_board.gif
   preview: gif/share-board.png
-  description: To invite collaborators to the board, click on the <b>Share</b> button in the top-right corner, enter the email addresses, set the access rights and click <b>Send</b>. You can also share the board with people outside of RealtimeBoard using a shareable link, or make any board available with a whole team in one click.
+  description: To invite collaborators to the board, click on the <b>Share</b> button in the top-right corner, enter the email addresses, set the access rights and click <b>Send</b>. You can also share the board with people outside of Miro using a shareable link, or make any board available with a whole team in one click.
   tags:
     - share
     - invite
