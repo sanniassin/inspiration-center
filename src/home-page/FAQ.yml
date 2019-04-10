@@ -4,17 +4,17 @@ thumbnail: 'img/faq.svg'
 order: 6
 content:
   helpTopics:
-    - title: How to invite collaborators
-      url: https://help.realtimeboard.com/support/solutions/articles/1000033152
-    - title: Account roles and access rights
-      url: https://help.realtimeboard.com/support/solutions/articles/1000128663
-    - title: How to use the whiteboard toolkit
-      url: https://help.realtimeboard.com/support/solutions/articles/1000033145
-    - title: How to select and move multiple objects
-      url: https://help.realtimeboard.com/support/solutions/articles/1000178246
-    - title: How to upload files
-      url: https://help.realtimeboard.com/support/solutions/articles/1000033144
-    - title: How to export boards as PDF, image, etc.
-      url: https://help.realtimeboard.com/support/solutions/articles/1000033159
-    - title: How to upgrade my account
-      url: https://help.realtimeboard.com/support/solutions/articles/11000002741
+    - title: Sharing Boards and Inviting Collaborators
+      url: https://help.miro.com/hc/en-us/articles/360017730813-Sharing-Boards-and-Inviting-Collaborators
+    - title: Access Rights and Board Ownership
+      url: https://help.miro.com/hc/en-us/articles/360017572194-Access-Rights-and-Board-Ownership
+    - title: Toolbar
+      url: https://help.miro.com/hc/en-us/articles/360017730553-Toolbar
+    - title: How to Select and Move Multiple Objects
+      url: https://help.miro.com/hc/en-us/articles/360017730953-How-to-Select-and-Move-Multiple-Objects
+    - title: Uploading Files to Boards
+      url: https://help.miro.com/hc/en-us/articles/360017731013-Uploading-Files-to-Boards
+    - title: How to Export and Print Boards
+      url: https://help.miro.com/hc/en-us/articles/360017572754-How-to-Export-and-Print-Boards
+    - title: How to Upgrade Your Account
+      url: https://help.miro.com/hc/en-us/articles/360017730273-How-to-Upgrade-Your-Account
