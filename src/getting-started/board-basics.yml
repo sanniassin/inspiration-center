@@ -24,15 +24,17 @@ videos:
   # RealtimeBoard Visual Templates Guide
   - https://www.youtube.com/watch?v=a0T3JU-DLr0
 helpTopics:
-  - title: Toolbar
-    url: https://help.miro.com/hc/en-us/articles/360017730553-Toolbar
-  - title: Uploading Files to Boards
-    url: https://help.miro.com/hc/en-us/articles/360017731013-Uploading-Files-to-Boards
-  - title: 10 Ways to Add Content
-    url: https://help.miro.com/hc/en-us/articles/360017731233-10-Ways-to-Add-Content
-  - title: Structuring Board Content
-    url: https://help.miro.com/hc/en-us/articles/360017730973-Structuring-Board-Content
   - title: Creating a New Board
     url: https://help.miro.com/hc/en-us/articles/360017571974-Creating-a-New-Board
-  - title: Internal and External Linking 
-    url: https://help.miro.com/hc/en-us/articles/360017572354-Internal-and-External-Linking
+  - title: Navigation Mode
+    url: https://help.miro.com/hc/en-us/articles/360017731053-Navigation-Mode
+  - title: Shortcuts and Hotkeys
+    url: https://help.miro.com/hc/en-us/articles/360017731033-Shortcuts-and-Hotkeys
+  - title: Toolbar
+    url: https://help.miro.com/hc/en-us/articles/360017730553-Toolbar
+  - title: Mind Map
+    url: https://help.miro.com/hc/en-us/articles/360017730753-Mind-Map
+  - title: Cards
+    url: https://help.miro.com/hc/en-us/articles/360020911193-Cards
+  - title: User Story Mapping
+    url: https://help.miro.com/hc/en-us/articles/360020712554-User-Story-Mapping

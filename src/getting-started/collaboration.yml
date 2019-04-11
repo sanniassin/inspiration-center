@@ -11,21 +11,15 @@ howTo:
   - resolve-comment
   - show-cursors
 helpTopics:
-  - title: Collaborate remotely like in one room
-    url: https://miro.com/features
   - title: Sharing Boards and Inviting Collaborators
     url: https://help.miro.com/hc/en-us/articles/360017730813-Sharing-Boards-and-Inviting-Collaborators
   - title: Access Rights and Board Ownership
     url: https://help.miro.com/hc/en-us/articles/360017572194-Access-Rights-and-Board-Ownership
-  - title: Occasional License
-    url: https://help.miro.com/hc/en-us/articles/360017730173-Occasional-License
-  - title: Screen Sharing
-    url: https://help.miro.com/hc/en-us/articles/360017730853-Screen-Sharing
-  - title: Video Chat
-    url: https://help.miro.com/hc/en-us/articles/360017572214-Video-Chat
   - title: Chat
     url: https://help.miro.com/hc/en-us/articles/360017572234-Chat
+  - title: Video Chat
+    url: https://help.miro.com/hc/en-us/articles/360017572214-Video-Chat
+  - title: Screen Sharing
+    url: https://help.miro.com/hc/en-us/articles/360017730853-Screen-Sharing
   - title: '@Mentioning People on the Board'
     url: https://help.miro.com/hc/en-us/articles/360017730893--Mentioning-People-on-the-Board
-  - title: Emoji Reactions
-    url: https://help.miro.com/hc/en-us/articles/360017572254-Emoji-Reactions

@@ -4,17 +4,21 @@ thumbnail: 'img/faq.svg'
 order: 6
 content:
   helpTopics:
-    - title: Sharing Boards and Inviting Collaborators
-      url: https://help.miro.com/hc/en-us/articles/360017730813-Sharing-Boards-and-Inviting-Collaborators
-    - title: Access Rights and Board Ownership
-      url: https://help.miro.com/hc/en-us/articles/360017572194-Access-Rights-and-Board-Ownership
-    - title: Toolbar
-      url: https://help.miro.com/hc/en-us/articles/360017730553-Toolbar
-    - title: How to Select and Move Multiple Objects
-      url: https://help.miro.com/hc/en-us/articles/360017730953-How-to-Select-and-Move-Multiple-Objects
-    - title: Uploading Files to Boards
-      url: https://help.miro.com/hc/en-us/articles/360017731013-Uploading-Files-to-Boards
-    - title: How to Export and Print Boards
-      url: https://help.miro.com/hc/en-us/articles/360017572754-How-to-Export-and-Print-Boards
-    - title: How to Upgrade Your Account
-      url: https://help.miro.com/hc/en-us/articles/360017730273-How-to-Upgrade-Your-Account
+    - title: How to Restore a Deleted Board
+      url: https://help.miro.com/hc/en-us/articles/360017572614-How-to-Restore-a-Deleted-Board
+    - title: The Board is Locked
+      url: https://help.miro.com/hc/en-us/articles/360017731453-The-Board-is-Locked
+    - title: How to Report Bugs
+      url: https://help.miro.com/hc/en-us/articles/360017731413-How-to-Report-Bugs
+    - title: Browser Restrictions
+      url: https://help.miro.com/hc/en-us/articles/360017731573-Browser-Restrictions
+    - title: Supported File Formats
+      url: https://help.miro.com/hc/en-us/articles/360017731613-Supported-File-Formats
+    - title: Managing Your Team
+      url: https://help.miro.com/hc/en-us/articles/360017571214-Managing-Your-Team
+    - title: Managing Your Subscription
+      url: https://help.miro.com/hc/en-us/articles/360017571694-Managing-Your-Subscription
+    - title: Moving Boards between Accounts
+      url: https://help.miro.com/hc/en-us/articles/360017730093-Moving-Boards-between-Accounts
+    - title: Occasional License
+      url: https://help.miro.com/hc/en-us/articles/360017730173-Occasional-License
