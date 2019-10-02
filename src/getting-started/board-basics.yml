@@ -19,10 +19,10 @@ tutorials:
 videos:
   # Getting Started with Miro: Board Basics
   - https://vimeo.com/330084954
-  # Getting Started with Miro: Navigation
-  - https://vimeo.com/318988801
   # Getting Started with Miro: Collaboration
   - https://vimeo.com/338245997
+  # Getting Started with Miro: Navigation
+  - https://vimeo.com/318988801
 helpTopics:
   - title: Creating a New Board
     url: https://help.miro.com/hc/en-us/articles/360017571974-Creating-a-New-Board
