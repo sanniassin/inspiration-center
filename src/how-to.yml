@@ -276,7 +276,7 @@
   title: Describe step-by-step user tasks
   file: video/frameworks/usm/4_describe_user_tasks.mp4
   preview: video/frameworks/usm/4_describe_user_tasks.mp4
-  description: That your persona needs to accomplish to get something done. Use a template "As a [persona] I want to [user task] so I can [final user goal]." <br> Add as many tasks as you need with our flexible framework.
+  description: That your persona needs to accomplish to get something done. Use a template "As a [persona] I want to [user task] so I can [final user goal]." Add as many tasks as you need with our flexible framework.
   tags: []
 - id: USM-step-5
   title: Group user tasks by goals or activities
